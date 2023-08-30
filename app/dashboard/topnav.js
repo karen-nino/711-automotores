@@ -4,8 +4,8 @@ import Image from 'next/image'
 export const Topnav = () => {
     return (
         <div className='flex justify-between h-16 py-2 bg-sky-700'>
-            <div className='min-w-[230px] self-center bg-green-300'>
-                <div className='bg-blue-700 w-28'>Logo</div>
+            <div className='min-w-[230px] self-center'>
+                {/* <div className='bg-blue-700 w-28'>Logo</div> */}
             </div>
             <div className='flex items-center justify-end px-5 gap-[20px]'>
                 <ul className='flex items-center gap-[20px]'>
