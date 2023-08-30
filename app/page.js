@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Topnav, Sidebar } from './dashboard'
+import { Topnav, Sidebar } from './layouts/dashboard'
 
 export default function Home() {
   return (
