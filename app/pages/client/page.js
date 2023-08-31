@@ -1,5 +1,5 @@
 import React from 'react'
-import { Topnav, Sidebar } from '@/app/layouts/dashboard'
+import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 
 
 const Client = () => {
@@ -40,7 +40,7 @@ const Client = () => {
       <div className="grid h-screen grid-cols-[230px,1fr,1fr,1fr,1fr,1fr] grid-rows-[1fr,1fr]">
 
         <section className="col-span-6">
-          <Topnav />
+          <Topbar />
         </section>
 
         <section className="col-span-1 row-start-2">

@@ -1,7 +1,7 @@
-import Topnav from "./topnav"
+import Topbar from "./topbar"
 import Sidebar from "./sidebar"
 
 export {
-    Topnav,
+    Topbar,
     Sidebar
 }

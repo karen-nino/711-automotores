@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-export const Topnav = () => {
+export const Topbar = () => {
     return (
         <div className='flex justify-between py-2 bg-sky-700'>
             <div className='min-w-[230px] self-center'>
@@ -75,4 +75,4 @@ export const Topnav = () => {
     )
 }
 
-export default Topnav
+export default Topbar
