@@ -4,8 +4,11 @@ import Image from 'next/image'
 export const Topbar = () => {
     return (
         <div className='flex justify-between py-2 bg-sky-700'>
-            <div className='min-w-[230px] self-center'>
+            <div className='w-[230px] flex justify-center items-center'>
                 {/* <div className='bg-blue-700 w-28'>Logo</div> */}
+                <div className='flex items-center justify-center'>
+                    <Image src="/assets/711-logo.png" width={200} height={100}/> 
+                </div>
             </div>
             <div className='flex items-center justify-end px-5 gap-[20px]'>
                 <ul className='flex items-center gap-[20px]'>
