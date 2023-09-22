@@ -5,7 +5,7 @@ export const Sidebar = () => {
     <div className='flex flex-col justify-between h-screen p-5 bg-white w-[230px]'>
       <ul className='list-none'>
         <li>
-          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
+          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded cursor-pointer text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
             <div className='flex items-center w-3 h-3 mr-2'>
               <div className='flex mr-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
@@ -24,7 +24,7 @@ export const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
+          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded cursor-pointer text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
             <div className='flex items-center w-3 h-3 mr-2'>
               <div className='flex mr-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
@@ -43,7 +43,7 @@ export const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
+          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded cursor-pointer text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
             <div className='flex items-center w-3 h-3 mr-2'>
               <div className='flex mr-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
@@ -62,7 +62,7 @@ export const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
+          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded cursor-pointer text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
             <div className='flex items-center w-3 h-3 mr-2'>
               <div className='flex mr-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -81,7 +81,7 @@ export const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
+          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded cursor-pointer text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
             <div className='flex items-center w-3 h-3 mr-2'>
               <div className='flex mr-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -94,7 +94,7 @@ export const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
+          <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 border-b rounded cursor-pointer text-gray hover:bg-gray-200 active:bg-blue-500 active:text-white'>
             <div className='flex items-center w-3 h-3 mr-2'>
               <div className='flex mr-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">

@@ -2,7 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 
 
-const Client = () => {
+const Clientes = () => {
   return (
     <div className='flex flex-col'>
 
@@ -68,7 +68,7 @@ const Client = () => {
 
             <section className='grid w-4/5 grid-cols-4 gap-3 p-5'>
 
-              <article className='flex h-20 p-3 bg-white'>
+              <article className='flex h-20 p-3 bg-white cursor-pointer'>
 
                 <div>
                   <div className='flex items-center justify-center bg-gray-300 rounded-full h-14 w-14'>
@@ -404,4 +404,4 @@ const Client = () => {
   )
 }
 
-export default Client
+export default Clientes
