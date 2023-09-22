@@ -17,7 +17,7 @@ const NuevoCliente = () => {
         </section>
 
         <section className="col-span-5 row-start-2">
-          <div className='min-h-screen bg-gray-200'>
+          <div className='container h-screen bg-gray-200'>
 
             <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
               <div className='mr-3'>
@@ -50,14 +50,6 @@ const NuevoCliente = () => {
               <div className='mb-5'>
                 <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Fecha de nacimiento</label>
                 <input type="text" placeholder="Fecha de nacimiento" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
-              </div>
-
-              <div className='mb-5'>
-                <label for="countries" class="block mb-2 text-sm font-medium text-gray-700">ID</label>
-                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                  <option selected>Selecciona</option>
-                  <option value="ID">Número de identificación oficial</option>
-                </select>
               </div>
 
               <div className='mb-5'>
@@ -101,15 +93,20 @@ const NuevoCliente = () => {
               </div>
 
               <div className='mb-5'>
-                <label for="countries" class="block mb-2 text-sm font-medium text-gray-700">ID</label>
-                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                <label for="identificacion" class="block mb-2 text-sm font-medium text-gray-700">ID</label>
+                <select id="identificacion" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                   <option selected>Selecciona</option>
                   <option value="ID">Número de identificación oficial</option>
                 </select>
               </div>
 
               <div className='mb-5'>
-                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Fecha de nacimiento</label>
+                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Cotitular</label>
+                <input type="text" placeholder="Escribe para buscar un cliente registrado" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+              </div>
+
+              <div className='mb-5'>
+                <label for="identificacion-documento" class="block mb-2 text-sm font-semibold text-gray-700">Identificación oficial</label>
                 <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
                   <div className='flex justify-center'>
                     <span className='text-center'>Agregar documentos</span>
@@ -117,10 +114,26 @@ const NuevoCliente = () => {
                 </a>
               </div>
 
+              <div className='mb-5'>
+                <label for="documentos" class="block mb-2 text-sm font-semibold text-gray-700">Documentos</label>
+                <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
+                  <div className='flex justify-center'>
+                    <span className='text-center'>Agregar documentos</span>
+                  </div>
+                </a>
+              </div>
+
+              <div className='mb-5'>
+                <label for="fotografias" class="block mb-2 text-sm font-semibold text-gray-700">Fotografías</label>
+                <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
+                  <div className='flex justify-center'>
+                    <span className='text-center'>Agregar foto</span>
+                  </div>
+                </a>
+              </div>
+
 
             </section>
-
-
 
           </div>
         </section>
