@@ -17,7 +17,7 @@ const NuevoCliente = () => {
         </section>
 
         <section className="col-span-5 row-start-2">
-          <div className='container h-screen bg-gray-200'>
+          <div className='min-h-screen bg-gray-200'>
 
             <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
               <div className='mr-3'>
@@ -35,7 +35,7 @@ const NuevoCliente = () => {
               <span>Nuevo cliente</span>
             </article>
 
-            <section className='w-5/12 h-32 mt-10 ml-5'>
+            <section className='h-32 mt-10 ml-5 w-96'>
 
               <div className='mb-5'>
                 <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Nombre</label>
