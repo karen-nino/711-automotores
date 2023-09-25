@@ -29,97 +29,108 @@ const prendas = () => {
                         </article>
 
                         <article className='flex items-center text-base bg-gray-100 text-gray h-14'>
-                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer'>En venta</div>
-                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer'>Apartados</div>
-                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer'>Empeñados</div>
+                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>En venta</div>
+                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>Apartados</div>
+                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>Empeñados</div>
                         </article>
 
                         <section className='mt-10 ml-5'>
+                        <label for="prestamos" class="block text-sm font-semibold text-gray-700 ml-5">TODAS LAS PRENDAS EMPEÑADAS</label>
 
 
-                            <section className='grid grid-cols-4 gap-3 p-5'>
+                            <section className='grid gap-5 p-5 grid-cols-[600px,600px]'>
 
 
-
-                                <article className='flex h-20 bg-white cursor-pointer'>
-
+                                <article className='flex bg-white cursor-pointer'>
                                     <div>
-                                        <div className='flex items-center justify-center w-24 h-full bg-gray-300'>
-
+                                        <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
+                                            9-1
                                         </div>
                                     </div>
 
-                                    <div className='flex justify-between w-full p-3 ml-3'>
-
+                                    <div className='flex justify-between w-full p-4'>
                                         <div>
-                                            <p className='text-gray-500'>Ford Focus 2009</p>
-                                            <p>No. Serie344 40000km</p>
-                                            <p>05  jun 2023</p>
+                                            <p className=''>Ford Focus 2009</p>
+                                            <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
+                                            <p className='tracking-wide text-gray-500'>05  jun 2023</p>
                                         </div>
 
                                         <div>
                                             <div className='flex items-center'>
-                                                <p className='mr-1 text-sm text-gray-500'>0</p>
-                                                <div className='w-2 h-2 bg-green-500 rounded-full'></div>
+                                                <p className='mr-2 text-sm'>Empeñado</p>
+                                                <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
                                             </div>
                                         </div>
-
                                     </div>
-
                                 </article>
 
-                                <article className='flex h-20 bg-white cursor-pointer'>
-
+                                <article className='flex bg-white cursor-pointer'>
                                     <div>
-                                        <div className='flex items-center justify-center w-24 h-full bg-gray-300'>
-
+                                        <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
+                                            9-1
                                         </div>
                                     </div>
 
-                                    <div className='flex justify-between w-full p-3 ml-3'>
-
+                                    <div className='flex justify-between w-full p-4'>
                                         <div>
-                                            <p className='text-gray-500'>Ford Focus 2009</p>
-                                            <p>No. Serie344 40000km</p>
-                                            <p>05  jun 2023</p>
+                                            <p className=''>Ford Focus 2009</p>
+                                            <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
+                                            <p className='tracking-wide text-gray-500'>05  jun 2023</p>
                                         </div>
 
                                         <div>
                                             <div className='flex items-center'>
-                                                <p className='mr-1 text-sm text-gray-500'>0</p>
-                                                <div className='w-2 h-2 bg-green-500 rounded-full'></div>
+                                                <p className='mr-2 text-sm'>Empeñado</p>
+                                                <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
                                             </div>
                                         </div>
-
                                     </div>
-
                                 </article>
 
-                                <article className='flex h-20 bg-white cursor-pointer'>
-
+                                <article className='flex bg-white cursor-pointer'>
                                     <div>
-                                        <div className='flex items-center justify-center w-24 h-full bg-gray-300'>
-
+                                        <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
+                                            9-1
                                         </div>
                                     </div>
 
-                                    <div className='flex justify-between w-full p-3 ml-3'>
-
+                                    <div className='flex justify-between w-full p-4'>
                                         <div>
-                                            <p className='text-gray-500'>Ford Focus 2009</p>
-                                            <p>No. Serie344 40000km</p>
-                                            <p>05  jun 2023</p>
+                                            <p className=''>Ford Focus 2009</p>
+                                            <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
+                                            <p className='tracking-wide text-gray-500'>05  jun 2023</p>
                                         </div>
 
                                         <div>
                                             <div className='flex items-center'>
-                                                <p className='mr-1 text-sm text-gray-500'>0</p>
-                                                <div className='w-2 h-2 bg-green-500 rounded-full'></div>
+                                                <p className='mr-2 text-sm'>Empeñado</p>
+                                                <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
                                             </div>
                                         </div>
+                                    </div>
+                                </article>
 
+                                <article className='flex bg-white cursor-pointer'>
+                                    <div>
+                                        <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
+                                            9-1
+                                        </div>
                                     </div>
 
+                                    <div className='flex justify-between w-full p-4'>
+                                        <div>
+                                            <p className=''>Ford Focus 2009</p>
+                                            <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
+                                            <p className='tracking-wide text-gray-500'>05  jun 2023</p>
+                                        </div>
+
+                                        <div>
+                                            <div className='flex items-center'>
+                                                <p className='mr-2 text-sm'>Empeñado</p>
+                                                <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </article>
 
 

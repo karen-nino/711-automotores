@@ -6,7 +6,7 @@ const NuevoCliente = () => {
   return (
     <div className='flex flex-col'>
 
-      <div className="grid h-screen grid-cols-[230px,1fr,1fr,1fr,1fr,1fr] grid-rows-[1fr,1fr]">
+      <div className="grid h-screen grid-cols-[230px,1fr,1fr,1fr,1fr,1fr] grid-rows-[1fr,1fr] overflow-hidden">
 
         <section className="col-span-6">
           <Topbar />
@@ -17,7 +17,7 @@ const NuevoCliente = () => {
         </section>
 
         <section className="col-span-5 row-start-2">
-          <div className='min-h-screen bg-gray-200'>
+          <div className='h-screen overflow-auto bg-gray-200'>
 
             <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
               <div className='mr-3'>
@@ -35,7 +35,7 @@ const NuevoCliente = () => {
               <span>Nuevo cliente</span>
             </article>
 
-            <section className='h-32 mt-10 ml-5 w-96'>
+            <section className='h-32 mt-10 ml-5 mb-44 w-96'>
 
               <div className='mb-5'>
                 <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Nombre</label>
@@ -123,7 +123,7 @@ const NuevoCliente = () => {
                 </a>
               </div>
 
-              <div className='mb-5'>
+              <div className='mb-64'>
                 <label for="fotografias" class="block mb-2 text-sm font-semibold text-gray-700">Fotografías</label>
                 <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
                   <div className='flex justify-center'>
