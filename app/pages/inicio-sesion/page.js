@@ -36,8 +36,8 @@ const InicioSesion = () => {
 
 
                     <div className='flex flex-col w-full mt-5'>
-                        <a className='mb-2 text-sm text-blue-700'>Crear una nueva cuenta</a>
-                        <a className='text-sm text-blue-700'>Olvidé mi contraseña</a>
+                        <a href='#' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Crear una nueva cuenta</a>
+                        <a href='#' className='text-sm text-blue-600 cursor-pointer active:text-blue-800'>Olvidé mi contraseña</a>
                     </div>
 
                 </div>
