@@ -50,10 +50,13 @@ const NuevoPrestamo = () => {
                             <div className='mb-5'>
                                 <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Prendas en garantía</label>
                                 <div className='px-5 py-4 bg-white'>
-                                    <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Tipo</label>
-                                    <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                                        <option selected>Selecciona el tipo de prenda</option>
-                                    </select>
+                                    <div className='mb-5'>
+                                        <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Tipo</label>
+                                        <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                            <option>Selecciona el tipo de prenda</option>
+                                            <option selected value="vehiculo">Vehículo</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
 
