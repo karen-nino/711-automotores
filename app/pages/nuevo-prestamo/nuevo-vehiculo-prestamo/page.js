@@ -1,5 +1,6 @@
 import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
+import ModalFotos from '@/app/components/modal/modal-fotos/page'
 
 const PrestamoVehiculo = () => {
     return (
@@ -124,14 +125,15 @@ const PrestamoVehiculo = () => {
                                     </div>
 
                                 </div>
-                                
-                                
+
+
                                 <div className='px-5 py-4 mt-8 mb-8 bg-white'>
 
                                     <div className='flex justify-between'>
                                         <p>Fotografías</p>
-                                        <a className='text-blue-400 cursor-pointer'>+ Agregar fotos</a>
+                                        <label for="tw-modal" className='text-blue-400 cursor-pointer'>+ Agregar fotos</label>
                                     </div>
+                                    < ModalFotos/>                                        
 
                                 </div>
                             </div>
