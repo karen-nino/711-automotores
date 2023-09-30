@@ -62,56 +62,56 @@ const PrestamoVehiculo = () => {
 
                                     <div className='mb-5'>
                                         <label for="marca" class="block mb-2 text-sm font-semibold text-gray-700">Marca</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Marca" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="linea" class="block mb-2 text-sm font-semibold text-gray-700">Línea</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Línea" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="modelo" class="block mb-2 text-sm font-semibold text-gray-700">Modelo</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Modelo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="serie" class="block mb-2 text-sm font-semibold text-gray-700">Serie</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Serie" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="kilometraje" class="block mb-2 text-sm font-semibold text-gray-700">Kilometraje</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Kilometraje" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="motor" class="block mb-2 text-sm font-semibold text-gray-700">Número de motor</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Número de motor" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="obersavaciones" class="block mb-2 text-sm font-semibold text-gray-700">Observaciones</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Observaciones" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Avalúo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="prestamo" class="block mb-2 text-sm font-semibold text-gray-700">Préstamo</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Préstamo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
                                         <label for="ubicacion" class="block mb-2 text-sm font-semibold text-gray-700">Ubicación de resguardo</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Ubicación de resguardo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                     <div className='mb-5'>
-                                        <label for="estado" class="block mb-2 text-sm font-medium text-gray-700">Tipo</label>
+                                        <label for="estado" class="block mb-2 text-sm font-medium text-gray-700">Estado</label>
                                         <select id="estado" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                                             <option selected>Empeñado</option>
                                             <option value="estado">Apartado</option>
@@ -121,7 +121,7 @@ const PrestamoVehiculo = () => {
 
                                     <div className='mb-5'>
                                         <label for="dueño" class="block mb-2 text-sm font-semibold text-gray-700">Dueño original</label>
-                                        <input type="text" placeholder="Ciudad y estado/provincia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <input type="text" placeholder="Dueño original" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
                                 </div>
