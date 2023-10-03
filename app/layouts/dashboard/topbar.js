@@ -7,7 +7,9 @@ export const Topbar = () => {
             <div className='w-[230px] flex justify-center items-center'>
                 {/* <div className='bg-blue-700 w-28'>Logo</div> */}
                 <div className='flex items-center justify-center'>
-                    <Image src="/assets/711-logo.png" width={200} height={100}/> 
+                    <div className='min-w-[200px]'>
+                        <Image className='block' src="/assets/711-logo.png" width={200} height={100}/> 
+                    </div>
                 </div>
             </div>
             <div className='flex items-center justify-end px-5 gap-[20px]'>
