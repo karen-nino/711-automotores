@@ -20,7 +20,7 @@ const Clientes = () => {
           <div className='min-h-screen bg-gray-200'>
 
             <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
-              
+
               <div className='mr-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
                   <g clip-path="url(#clip0_43_969)">
@@ -34,7 +34,20 @@ const Clientes = () => {
                 </svg>
               </div>
               <span>Clientes</span>
-              
+
+              <div className='absolute flex items-center justify-center w-16 h-16 bg-red-500 rounded-full right-20 top-20'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="28" viewBox="0 0 25 28" fill="none">
+                  <g clip-path="url(#clip0_345_3116)">
+                    <path d="M22.75 11.375H14.875V3.5C14.875 2.53367 14.0913 1.75 13.125 1.75H11.375C10.4087 1.75 9.625 2.53367 9.625 3.5V11.375H1.75C0.783672 11.375 0 12.1587 0 13.125V14.875C0 15.8413 0.783672 16.625 1.75 16.625H9.625V24.5C9.625 25.4663 10.4087 26.25 11.375 26.25H13.125C14.0913 26.25 14.875 25.4663 14.875 24.5V16.625H22.75C23.7163 16.625 24.5 15.8413 24.5 14.875V13.125C24.5 12.1587 23.7163 11.375 22.75 11.375Z" fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_345_3116">
+                      <rect width="24.5" height="28" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
             </article>
 
             <section className='p-6'>
