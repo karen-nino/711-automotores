@@ -17,7 +17,7 @@ const prendas = () => {
                 </section>
 
                 <section className="col-span-5 row-start-2">
-                    <div className='min-h-screen bg-gray-200'>
+                    <div className='min-h-screen overflow-auto bg-gray-200'>
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
@@ -104,88 +104,58 @@ const prendas = () => {
                                             <div>
                                                 <div className='flex items-center'>
                                                     <p className='mr-2 text-sm'>Empeñado</p>
-                                                    <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
+                                                    <a className='flex items-center justify-center w-6 h-6 bg-gray-100 rounded-sm hover:bg-gray-300'>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                            <path d="M7.5 9C7.5 9.39782 7.65804 9.77936 7.93934 10.0607C8.22064 10.342 8.60218 10.5 9 10.5C9.39782 10.5 9.77936 10.342 10.0607 10.0607C10.342 9.77936 10.5 9.39782 10.5 9C10.5 8.60218 10.342 8.22064 10.0607 7.93934C9.77936 7.65804 9.39782 7.5 9 7.5C8.60218 7.5 8.22064 7.65804 7.93934 7.93934C7.65804 8.22064 7.5 8.60218 7.5 9ZM7.5 4.5C7.5 4.89782 7.65804 5.27936 7.93934 5.56066C8.22064 5.84196 8.60218 6 9 6C9.39782 6 9.77936 5.84196 10.0607 5.56066C10.342 5.27936 10.5 4.89782 10.5 4.5C10.5 4.10218 10.342 3.72064 10.0607 3.43934C9.77936 3.15804 9.39782 3 9 3C8.60218 3 8.22064 3.15804 7.93934 3.43934C7.65804 3.72064 7.5 4.10218 7.5 4.5ZM7.5 13.5C7.5 13.8978 7.65804 14.2794 7.93934 14.5607C8.22064 14.842 8.60218 15 9 15C9.39782 15 9.77936 14.842 10.0607 14.5607C10.342 14.2794 10.5 13.8978 10.5 13.5C10.5 13.1022 10.342 12.7206 10.0607 12.4393C9.77936 12.158 9.39782 12 9 12C8.60218 12 8.22064 12.158 7.93934 12.4393C7.65804 12.7206 7.5 13.1022 7.5 13.5Z" fill="#4B5563" />
+                                                        </svg>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </article>
 
-                                    <article className='flex bg-white cursor-pointer'>
-                                        <div>
-                                            <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
-                                                9-1
-                                            </div>
-                                        </div>
-
-                                        <div className='flex justify-between w-full p-4'>
-                                            <div>
-                                                <p className=''>Ford Focus 2009</p>
-                                                <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
-                                                <p className='tracking-wide text-gray-500'>05  jun 2023</p>
-                                            </div>
-
-                                            <div>
-                                                <div className='flex items-center'>
-                                                    <p className='mr-2 text-sm'>Empeñado</p>
-                                                    <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-
-                                    <article className='flex bg-white cursor-pointer'>
-                                        <div>
-                                            <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
-                                                9-1
-                                            </div>
-                                        </div>
-
-                                        <div className='flex justify-between w-full p-4'>
-                                            <div>
-                                                <p className=''>Ford Focus 2009</p>
-                                                <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
-                                                <p className='tracking-wide text-gray-500'>05  jun 2023</p>
-                                            </div>
-
-                                            <div>
-                                                <div className='flex items-center'>
-                                                    <p className='mr-2 text-sm'>Empeñado</p>
-                                                    <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-
-                                    <article className='flex bg-white cursor-pointer'>
-                                        <div>
-                                            <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
-                                                9-1
-                                            </div>
-                                        </div>
-
-                                        <div className='flex justify-between w-full p-4'>
-                                            <div>
-                                                <p className=''>Ford Focus 2009</p>
-                                                <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
-                                                <p className='tracking-wide text-gray-500'>05  jun 2023</p>
-                                            </div>
-
-                                            <div>
-                                                <div className='flex items-center'>
-                                                    <p className='mr-2 text-sm'>Empeñado</p>
-                                                    <div className='w-6 h-6 bg-gray-200 rounded-sm'></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
 
 
                                 </div>
 
                             </section>
 
+                            <div class="border-t border-gray-200 py-10">
+                                <div class="flex flex-1 justify-between sm:hidden ">
+                                    <a href="#" class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">Previous</a>
+                                    <a href="#" class="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">Next</a>
+                                </div>
+                                <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between ">
+
+                                    <div className='bg-white rounded-md'>
+                                        <nav class="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
+                                            <a href="#" class="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
+                                                <span class="sr-only">Previous</span>
+                                                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z" clip-rule="evenodd" />
+                                                </svg>
+                                            </a>
+
+                                            <a href="#" aria-current="page" class="relative z-10 inline-flex items-center bg-blue-600 px-4 py-2 text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">1</a>
+                                            <a href="#" class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">2</a>
+                                            <a href="#" class="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex">3</a>
+                                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-300 focus:outline-offset-0">...</span>
+                                            <a href="#" class="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex">8</a>
+                                            <a href="#" class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">9</a>
+                                            <a href="#" class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">10</a>
+                                            <a href="#" class="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
+                                                <span class="sr-only">Next</span>
+                                                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                                                </svg>
+                                            </a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
 
                         </section>
+
 
                     </div>
                 </section>
