@@ -6,7 +6,7 @@ const PrestamoVehiculo = () => {
     return (
         <div className='flex flex-col'>
 
-            <div className="grid h-screen grid-cols-[230px,1fr,1fr,1fr,1fr,1fr] grid-rows-[1fr,1fr]">
+            <div className="grid h-screen grid-cols-[230px,1fr,1fr,1fr,1fr,1fr] grid-rows-[1fr,1fr] overflow-hidden">
 
                 <section className="col-span-6">
                     <Topbar />
@@ -17,7 +17,7 @@ const PrestamoVehiculo = () => {
                 </section>
 
                 <section className="col-span-5 row-start-2">
-                    <div className='min-h-screen bg-gray-200'>
+                    <div className='h-screen overflow-auto bg-gray-200'>
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
