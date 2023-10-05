@@ -6,7 +6,7 @@ const InformacionCliente = () => {
     return (
         <div className='flex flex-col'>
 
-            <div className="grid h-screen grid-cols-[230px,1fr,1fr,1fr,1fr,1fr] grid-rows-[1fr,1fr]">
+            <div className="grid h-screen grid-cols-[230px,1fr,1fr,1fr,1fr,1fr] grid-rows-[1fr,1fr] overflow-hidden">
 
                 <section className="col-span-6">
                     <Topbar />
@@ -17,7 +17,7 @@ const InformacionCliente = () => {
                 </section>
 
                 <section className="col-span-5 row-start-2">
-                    <div className='min-h-screen bg-gray-200'>
+                    <div className='h-screen overflow-auto bg-gray-200'>
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
@@ -28,7 +28,7 @@ const InformacionCliente = () => {
                             <span>Información del cliente</span>
                         </article>
 
-                        <section className='mt-10 ml-5 w-[698px]'>
+                        <section className='mt-10 ml-5 w-[698px] mb-44'>
 
                             <article className='pb-10'>
                                 <div className='w-full p-4 text-white bg-gray-700'>
