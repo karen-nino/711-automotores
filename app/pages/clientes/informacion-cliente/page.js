@@ -22,7 +22,7 @@ const InformacionCliente = () => {
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <Link href="../" className='mr-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-white hover:fill-gray-400'>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='cursor-pointer fill-white hover:fill-gray-400'>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M15 20L7 12L15 4L17 6L11 12L17 18L15 20Z"  />
                                 </svg>
                             </Link>

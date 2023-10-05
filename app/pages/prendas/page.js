@@ -21,8 +21,8 @@ const prendas = () => {
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 20L7 12L15 4L17 6L11 12L17 18L15 20Z" fill="white" />
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='cursor-pointer fill-white hover:fill-gray-400'>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 20L7 12L15 4L17 6L11 12L17 18L15 20Z" />
                                 </svg>
                             </div>
                             <span>Prendas</span>
@@ -87,15 +87,16 @@ const prendas = () => {
 
                                 <div className='grid gap-5  grid-cols-[600px,600px]'>
 
-                                    <article className='flex bg-white cursor-pointer'>
+                                    <article className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
                                                 9-1
                                             </div>
                                         </div>
 
-                                        <div className='flex justify-between w-full p-4'>
-                                            <div>
+                                        <div className='relative flex justify-between w-full p-4 bg-white'>
+
+                                             <div>
                                                 <p className=''>Ford Focus 2009</p>
                                                 <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
                                                 <p className='tracking-wide text-gray-500'>05  jun 2023</p>
@@ -111,9 +112,15 @@ const prendas = () => {
                                                     </a>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </article>
 
+                                            <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-green-700'>
+                                            <p className='text-xs tracking-wider text-white'>Empeñado</p>
+                                            </div>                                               
+
+
+                                        </div>
+                                        
+                                    </article>
 
 
                                 </div>
