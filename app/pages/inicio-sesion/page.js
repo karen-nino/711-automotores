@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const InicioSesion = () => {
@@ -29,23 +30,23 @@ const InicioSesion = () => {
                         <input type="text" placeholder="Contraseña" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                     </div>
 
-                    <a className='self-end block py-3 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item w-44 text-gray active:bg-green-700'>
+                    <Link href="/" className='self-end block py-3 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item w-44 text-gray active:bg-green-700'>
                         <div className='flex justify-center'>
                             <span className='text-center'>Inicia sesión</span>
                         </div>
-                    </a>
+                    </Link>
 
 
                     <div className='flex flex-col w-full mt-5'>
-                        <a href='#' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Crear una nueva cuenta</a>
-                        <a href='#' className='text-sm text-blue-600 cursor-pointer active:text-blue-800'>Olvidé mi contraseña</a>
+                        <Link href='#' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Crear una nueva cuenta</Link>
+                        <Link href='#' className='text-sm text-blue-600 cursor-pointer active:text-blue-800'>Olvidé mi contraseña</Link>
                     </div>
 
                 </div>
 
             </section>
 
-            <div className='w-screen h-screen overflow-hidden bg-gray-700'></div>
+            <div className='w-screen h-screen bg-gray-700'></div>
 
         </div>
     )
