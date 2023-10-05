@@ -45,7 +45,7 @@ const InicioSesion = () => {
 
             </section>
 
-            <div className='w-screen h-screen overflow-hidden bg-gray-600'></div>
+            <div className='w-screen h-screen overflow-hidden bg-gray-700'></div>
 
         </div>
     )
