@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const InicioSesion = () => {
     return (
-        <div>
+        <div className='h-screen overflow-hidden'>
 
             <div className='flex justify-between py-5 bg-sky-700'>
                 <div className='w-[230px] flex justify-center items-center'>
@@ -14,7 +14,7 @@ const InicioSesion = () => {
                 </div>
             </div>
 
-            <section className='flex flex-col items-center justify-center mt-20'>
+            <section className='flex flex-col items-center justify-center pb-40 mt-20'>
 
                 <p className='text-2xl font-light text-blue-400'>Inicia sesión</p>
 
@@ -43,9 +43,9 @@ const InicioSesion = () => {
 
                 </div>
 
-
-
             </section>
+
+            <div className='w-screen h-screen overflow-hidden bg-gray-600'></div>
 
         </div>
     )
