@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const RecuperarContrasena = () => {
   return (
-    <div>
+    <div className='h-screen overflow-hidden'>
 
       <div className='flex justify-between py-5 bg-sky-700'>
         <div className='w-[230px] flex justify-center items-center'>
@@ -24,20 +25,22 @@ const RecuperarContrasena = () => {
           </div>
 
 
-          <a className='self-end block px-5 py-3 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item text-gray active:bg-green-700'>
+          <Link href="../pages/inicio-sesion" className='self-end block px-5 py-3 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item text-gray active:bg-green-700'>
             <div className='flex justify-center'>
               <span className='text-center'>Enviar correo de recuperación</span>
             </div>
-          </a>
+          </Link>
 
           <div className='flex flex-col w-full mt-8'>
-            <a href='#' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</a>
-            <p className='text-sm'>Si aún necesitas ayuda <span><a href='#' className='mb-2 text-blue-600 cursor-pointer active:text-blue-800'>contáctanos</a></span></p>
+            <Link href="/" className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</Link>
+            <p className='text-sm'>Si aún necesitas ayuda <span><Link href='/' className='mb-2 text-blue-600 cursor-pointer active:text-blue-800'>contáctanos</Link></span></p>
           </div>
 
         </div>
 
       </section>
+
+      <div className='w-screen h-screen mt-40 bg-gray-700'></div>
 
     </div>
   )

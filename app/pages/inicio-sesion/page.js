@@ -15,7 +15,7 @@ const InicioSesion = () => {
                 </div>
             </div>
 
-            <section className='flex flex-col items-center justify-center pb-40 mt-20'>
+            <section className='flex flex-col items-center justify-center mt-20'>
 
                 <p className='text-2xl font-light text-blue-400'>Inicia sesión</p>
 
@@ -38,15 +38,15 @@ const InicioSesion = () => {
 
 
                     <div className='flex flex-col w-full mt-5'>
-                        <Link href='#' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Crear una nueva cuenta</Link>
-                        <Link href='#' className='text-sm text-blue-600 cursor-pointer active:text-blue-800'>Olvidé mi contraseña</Link>
+                        <Link href='../pages/registro' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Crear una nueva cuenta</Link>
+                        <Link href='../pages/recuperar-contrasena' className='text-sm text-blue-600 cursor-pointer active:text-blue-800'>Olvidé mi contraseña</Link>
                     </div>
 
                 </div>
 
             </section>
 
-            <div className='w-screen h-screen bg-gray-700'></div>
+            <div className='w-screen h-screen mt-40 bg-gray-700'></div>
 
         </div>
     )

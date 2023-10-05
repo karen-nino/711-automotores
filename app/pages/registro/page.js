@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Registro = () => {
     return (
@@ -40,16 +41,16 @@ const Registro = () => {
                         <input type="text" placeholder="Confirmar contraseña" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                     </div>
 
-                    <p className='text-sm text-gray-700'>Al registrate, usted comfirma que ha leído y acepta nuestros <span><a className='text-blue-500'>Términos y condiciones</a></span></p>
+                    <p className='text-sm text-gray-700'>Al registrate, usted confirma que ha leído y acepta nuestros <span><Link href="/" className='text-blue-500'>Términos y condiciones</Link></span></p>
 
-                    <a className='self-end block py-3 mt-5 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item w-44 text-gray active:bg-green-700'>
+                    <Link href="#" className='self-end block py-3 mt-5 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item w-44 text-gray active:bg-green-700'>
                         <div className='flex justify-center'>
                             <span className='text-center'>Regístrate</span>
                         </div>
-                    </a>
+                    </Link>
 
                     <div className='flex flex-col w-full mt-5'>
-                        <a href='#' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</a>
+                        <Link href='../pages/inicio-sesion' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</Link>
                     </div>
 
                 </div>
