@@ -32,8 +32,8 @@ const RecuperarContrasena = () => {
           </Link>
 
           <div className='flex flex-col w-full mt-8'>
-            <Link href="/" className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</Link>
-            <p className='text-sm'>Si aún necesitas ayuda <span><Link href='/' className='mb-2 text-blue-600 cursor-pointer active:text-blue-800'>contáctanos</Link></span></p>
+            <Link href="../pages/inicio-sesion" className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</Link>
+            <p className='text-sm'>Si aún necesitas ayuda <span><Link href='#' className='mb-2 text-blue-600 cursor-pointer active:text-blue-800'>contáctanos</Link></span></p>
           </div>
 
         </div>
