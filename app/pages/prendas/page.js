@@ -21,18 +21,31 @@ const prendas = () => {
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='cursor-pointer fill-white hover:fill-gray-400'>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 20L7 12L15 4L17 6L11 12L17 18L15 20Z" />
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                    <g clip-path="url(#clip0_372_3024)">
+                                        <path d="M3 8.25V8.75C3 8.81771 2.97526 8.8763 2.92578 8.92578C2.8763 8.97526 2.81771 9 2.75 9H2.25C2.18229 9 2.1237 8.97526 2.07422 8.92578C2.02474 8.8763 2 8.81771 2 8.75V8.25C2 8.18229 2.02474 8.1237 2.07422 8.07422C2.1237 8.02474 2.18229 8 2.25 8H2.75C2.81771 8 2.8763 8.02474 2.92578 8.07422C2.97526 8.1237 3 8.18229 3 8.25ZM3 6.25V6.75C3 6.81771 2.97526 6.8763 2.92578 6.92578C2.8763 6.97526 2.81771 7 2.75 7H2.25C2.18229 7 2.1237 6.97526 2.07422 6.92578C2.02474 6.8763 2 6.81771 2 6.75V6.25C2 6.18229 2.02474 6.1237 2.07422 6.07422C2.1237 6.02474 2.18229 6 2.25 6H2.75C2.81771 6 2.8763 6.02474 2.92578 6.07422C2.97526 6.1237 3 6.18229 3 6.25ZM3 4.25V4.75C3 4.81771 2.97526 4.8763 2.92578 4.92578C2.8763 4.97526 2.81771 5 2.75 5H2.25C2.18229 5 2.1237 4.97526 2.07422 4.92578C2.02474 4.8763 2 4.81771 2 4.75V4.25C2 4.18229 2.02474 4.1237 2.07422 4.07422C2.1237 4.02474 2.18229 4 2.25 4H2.75C2.81771 4 2.8763 4.02474 2.92578 4.07422C2.97526 4.1237 3 4.18229 3 4.25ZM12 8.25V8.75C12 8.81771 11.9753 8.8763 11.9258 8.92578C11.8763 8.97526 11.8177 9 11.75 9H4.25C4.18229 9 4.1237 8.97526 4.07422 8.92578C4.02474 8.8763 4 8.81771 4 8.75V8.25C4 8.18229 4.02474 8.1237 4.07422 8.07422C4.1237 8.02474 4.18229 8 4.25 8H11.75C11.8177 8 11.8763 8.02474 11.9258 8.07422C11.9753 8.1237 12 8.18229 12 8.25ZM12 6.25V6.75C12 6.81771 11.9753 6.8763 11.9258 6.92578C11.8763 6.97526 11.8177 7 11.75 7H4.25C4.18229 7 4.1237 6.97526 4.07422 6.92578C4.02474 6.8763 4 6.81771 4 6.75V6.25C4 6.18229 4.02474 6.1237 4.07422 6.07422C4.1237 6.02474 4.18229 6 4.25 6H11.75C11.8177 6 11.8763 6.02474 11.9258 6.07422C11.9753 6.1237 12 6.18229 12 6.25ZM12 4.25V4.75C12 4.81771 11.9753 4.8763 11.9258 4.92578C11.8763 4.97526 11.8177 5 11.75 5H4.25C4.18229 5 4.1237 4.97526 4.07422 4.92578C4.02474 4.8763 4 4.81771 4 4.75V4.25C4 4.18229 4.02474 4.1237 4.07422 4.07422C4.1237 4.02474 4.18229 4 4.25 4H11.75C11.8177 4 11.8763 4.02474 11.9258 4.07422C11.9753 4.1237 12 4.18229 12 4.25ZM13 9.75V3.25C13 3.18229 12.9753 3.1237 12.9258 3.07422C12.8763 3.02474 12.8177 3 12.75 3H1.25C1.18229 3 1.1237 3.02474 1.07422 3.07422C1.02474 3.1237 1 3.18229 1 3.25V9.75C1 9.81771 1.02474 9.8763 1.07422 9.92578C1.1237 9.97526 1.18229 10 1.25 10H12.75C12.8177 10 12.8763 9.97526 12.9258 9.92578C12.9753 9.8763 13 9.81771 13 9.75ZM14 1.25V9.75C14 10.0938 13.8776 10.388 13.6328 10.6328C13.388 10.8776 13.0938 11 12.75 11H1.25C0.90625 11 0.611979 10.8776 0.367188 10.6328C0.122396 10.388 0 10.0938 0 9.75V1.25C0 0.90625 0.122396 0.611979 0.367188 0.367188C0.611979 0.122396 0.90625 0 1.25 0H12.75C13.0938 0 13.388 0.122396 13.6328 0.367188C13.8776 0.611979 14 0.90625 14 1.25Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_372_3024">
+                                            <rect width="14" height="11" fill="white" />
+                                        </clipPath>
+                                    </defs>
                                 </svg>
                             </div>
                             <span>Prendas</span>
                         </article>
 
-                        <article className='flex items-center text-base bg-gray-100 text-gray h-14'>
-                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>En venta</div>
-                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>Apartados</div>
-                            <div className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>Empeñados</div>
-                        </article>
+                        <ul className='flex items-center text-base bg-gray-100 text-gray h-14'>
+                            <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
+                                <a>En venta</a>
+                            </li>
+                            <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
+                                <a>Apartados</a>
+                            </li>
+                            <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>
+                                <a>Empeñados</a>
+                            </li>
+                        </ul>
 
 
                         <section className='mt-10 ml-5'>
@@ -71,13 +84,6 @@ const prendas = () => {
                                     </a>
                                 </div>
 
-                                <a className='block px-5 py-3 ml-2 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300'>
-                                    <div className='flex justify-center'>
-                                        <span className='text-center'>Mover</span>
-                                    </div>
-                                </a>
-
-
                             </div>
 
 
@@ -96,7 +102,7 @@ const prendas = () => {
 
                                         <div className='relative flex justify-between w-full p-4 bg-white'>
 
-                                             <div>
+                                            <div>
                                                 <p className=''>Ford Focus 2009</p>
                                                 <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
                                                 <p className='tracking-wide text-gray-500'>05  jun 2023</p>
@@ -114,12 +120,12 @@ const prendas = () => {
                                             </div>
 
                                             <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-green-700'>
-                                            <p className='text-xs tracking-wider text-white'>Empeñado</p>
-                                            </div>                                               
+                                                <p className='text-xs tracking-wider text-white'>Empeñado</p>
+                                            </div>
 
 
                                         </div>
-                                        
+
                                     </article>
 
 
