@@ -2,7 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import Link from 'next/link'
 
-const prendas = () => {
+const HistorialPrendas = () => {
     return (
         <div className='flex flex-col'>
 
@@ -21,29 +21,29 @@ const prendas = () => {
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                                    <g clip-path="url(#clip0_372_3024)">
-                                        <path d="M3.27273 9V9.54545C3.27273 9.61932 3.24574 9.68324 3.19176 9.73722C3.13778 9.79119 3.07386 9.81818 3 9.81818H2.45455C2.38068 9.81818 2.31676 9.79119 2.26278 9.73722C2.20881 9.68324 2.18182 9.61932 2.18182 9.54545V9C2.18182 8.92614 2.20881 8.86222 2.26278 8.80824C2.31676 8.75426 2.38068 8.72727 2.45455 8.72727H3C3.07386 8.72727 3.13778 8.75426 3.19176 8.80824C3.24574 8.86222 3.27273 8.92614 3.27273 9ZM3.27273 6.81818V7.36364C3.27273 7.4375 3.24574 7.50142 3.19176 7.5554C3.13778 7.60938 3.07386 7.63636 3 7.63636H2.45455C2.38068 7.63636 2.31676 7.60938 2.26278 7.5554C2.20881 7.50142 2.18182 7.4375 2.18182 7.36364V6.81818C2.18182 6.74432 2.20881 6.6804 2.26278 6.62642C2.31676 6.57244 2.38068 6.54545 2.45455 6.54545H3C3.07386 6.54545 3.13778 6.57244 3.19176 6.62642C3.24574 6.6804 3.27273 6.74432 3.27273 6.81818ZM3.27273 4.63636V5.18182C3.27273 5.25568 3.24574 5.3196 3.19176 5.37358C3.13778 5.42756 3.07386 5.45455 3 5.45455H2.45455C2.38068 5.45455 2.31676 5.42756 2.26278 5.37358C2.20881 5.3196 2.18182 5.25568 2.18182 5.18182V4.63636C2.18182 4.5625 2.20881 4.49858 2.26278 4.4446C2.31676 4.39063 2.38068 4.36364 2.45455 4.36364H3C3.07386 4.36364 3.13778 4.39063 3.19176 4.4446C3.24574 4.49858 3.27273 4.5625 3.27273 4.63636ZM13.0909 9V9.54545C13.0909 9.61932 13.0639 9.68324 13.0099 9.73722C12.956 9.79119 12.892 9.81818 12.8182 9.81818H4.63636C4.5625 9.81818 4.49858 9.79119 4.4446 9.73722C4.39063 9.68324 4.36364 9.61932 4.36364 9.54545V9C4.36364 8.92614 4.39063 8.86222 4.4446 8.80824C4.49858 8.75426 4.5625 8.72727 4.63636 8.72727H12.8182C12.892 8.72727 12.956 8.75426 13.0099 8.80824C13.0639 8.86222 13.0909 8.92614 13.0909 9ZM13.0909 6.81818V7.36364C13.0909 7.4375 13.0639 7.50142 13.0099 7.5554C12.956 7.60938 12.892 7.63636 12.8182 7.63636H4.63636C4.5625 7.63636 4.49858 7.60938 4.4446 7.5554C4.39063 7.50142 4.36364 7.4375 4.36364 7.36364V6.81818C4.36364 6.74432 4.39063 6.6804 4.4446 6.62642C4.49858 6.57244 4.5625 6.54545 4.63636 6.54545H12.8182C12.892 6.54545 12.956 6.57244 13.0099 6.62642C13.0639 6.6804 13.0909 6.74432 13.0909 6.81818ZM13.0909 4.63636V5.18182C13.0909 5.25568 13.0639 5.3196 13.0099 5.37358C12.956 5.42756 12.892 5.45455 12.8182 5.45455H4.63636C4.5625 5.45455 4.49858 5.42756 4.4446 5.37358C4.39063 5.3196 4.36364 5.25568 4.36364 5.18182V4.63636C4.36364 4.5625 4.39063 4.49858 4.4446 4.4446C4.49858 4.39063 4.5625 4.36364 4.63636 4.36364H12.8182C12.892 4.36364 12.956 4.39063 13.0099 4.4446C13.0639 4.49858 13.0909 4.5625 13.0909 4.63636ZM14.1818 10.6364V3.54545C14.1818 3.47159 14.1548 3.40767 14.1009 3.35369C14.0469 3.29972 13.983 3.27273 13.9091 3.27273H1.36364C1.28977 3.27273 1.22585 3.29972 1.17188 3.35369C1.1179 3.40767 1.09091 3.47159 1.09091 3.54545V10.6364C1.09091 10.7102 1.1179 10.7741 1.17188 10.8281C1.22585 10.8821 1.28977 10.9091 1.36364 10.9091H13.9091C13.983 10.9091 14.0469 10.8821 14.1009 10.8281C14.1548 10.7741 14.1818 10.7102 14.1818 10.6364ZM15.2727 1.36364V10.6364C15.2727 11.0114 15.1392 11.3324 14.8722 11.5994C14.6051 11.8665 14.2841 12 13.9091 12H1.36364C0.988636 12 0.667614 11.8665 0.400568 11.5994C0.133523 11.3324 0 11.0114 0 10.6364V1.36364C0 0.988636 0.133523 0.667614 0.400568 0.400568C0.667614 0.133523 0.988636 0 1.36364 0H13.9091C14.2841 0 14.6051 0.133523 14.8722 0.400568C15.1392 0.667614 15.2727 0.988636 15.2727 1.36364Z" fill="white" />
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <g clip-path="url(#clip0_398_2162)">
+                                        <path d="M8 0C3.58125 0 0 3.58125 0 8C0 12.4187 3.58125 16 8 16C12.4187 16 16 12.4187 16 8C16 3.58125 12.4187 0 8 0ZM8 14.6656C4.31875 14.6656 1.33438 11.6813 1.33438 8C1.33438 4.31875 4.31875 1.33438 8 1.33438C11.6813 1.33438 14.6656 4.31875 14.6656 8C14.6656 11.6813 11.6813 14.6656 8 14.6656ZM7.33437 7.33437H4V8.66875H8.66562V2.66875H7.33125V7.33437H7.33437Z" fill="white" />
                                     </g>
                                     <defs>
-                                        <clipPath id="clip0_372_3024">
-                                            <rect width="15.2727" height="12" fill="white" />
+                                        <clipPath id="clip0_398_2162">
+                                            <rect width="16" height="16" fill="white" />
                                         </clipPath>
                                     </defs>
                                 </svg>
                             </div>
-                            <span>Prendas</span>
+                            <span>Historial de prendas</span>
                         </article>
 
                         <ul className='flex items-center text-base bg-gray-100 text-gray h-14'>
-                            <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a>En venta</a>
-                            </li>
-                            <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a>Apartados</a>
-                            </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>
-                                <a>Empeñados</a>
+                                <a>Vendidos</a>
+                            </li>
+                            <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
+                                <a>Liquidados</a>
+                            </li>
+                            <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
+                                <a>Cancelados</a>
                             </li>
                         </ul>
 
@@ -89,10 +89,9 @@ const prendas = () => {
 
                             <section className='mt-10'>
 
-                                <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LAS PRENDAS EMPEÑADAS</label>
+                                <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LAS PRENDAS VENDIDAS</label>
 
-                                <div className='grid gap-5  grid-cols-[600px,600px]'>
-
+                                {/* <div className='grid gap-5  grid-cols-[600px,600px]'>
                                     <article className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
@@ -101,7 +100,6 @@ const prendas = () => {
                                         </div>
 
                                         <div className='relative flex justify-between w-full p-4 bg-white'>
-
                                             <div>
                                                 <p className=''>Ford Focus 2009</p>
                                                 <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
@@ -122,16 +120,13 @@ const prendas = () => {
                                             <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-green-700'>
                                                 <p className='text-xs tracking-wider text-white'>Empeñado</p>
                                             </div>
-
-
                                         </div>
-
                                     </article>
-
-
-                                </div>
+                                </div> */}
 
                             </section>
+
+
 
                             <div class="border-t border-gray-200 py-10">
                                 <div class="flex flex-1 justify-between sm:hidden ">
@@ -179,4 +174,4 @@ const prendas = () => {
     )
 }
 
-export default prendas
+export default HistorialPrendas
