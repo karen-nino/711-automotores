@@ -52,7 +52,6 @@ const prendas = () => {
                         <section className='mt-10 ml-5'>
 
                             <div className='flex'>
-
                                 <div className='flex border border-gray-300 bg-gray-50 w-96'>
                                     <input type="text" placeholder="Buscar" class="w-96  text-gray-900 text-sm rounded-md block p-2.5" />
                                     <a className='block px-3 py-3 text-xs tracking-wide text-gray-600 bg-white border-l border-gray-300 cursor-pointer text-gray active:bg-gray-300'>
