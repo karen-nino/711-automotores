@@ -8,7 +8,7 @@ export const Topbar = () => {
                 {/* <div className='bg-blue-700 w-28'>Logo</div> */}
                 <div className='flex items-center justify-center'>
                     <div className='min-w-[200px]'>
-                        <Image className='block' src="/assets/711-logo.png" width={200} height={100}/> 
+                        <a href='../pages/clientes'> <Image className='block' src="/assets/711-logo.png" width={200} height={100} /> </a>
                     </div>
                 </div>
             </div>
