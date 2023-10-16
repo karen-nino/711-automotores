@@ -17,7 +17,7 @@ const Clientes = () => {
         </section>
 
         <section className="col-span-5 row-start-2 select-none">
-          <div className='min-h-screen bg-gray-200'>
+          <div className='h-screen bg-gray-200'>
 
             <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
               <div className='mr-3'>

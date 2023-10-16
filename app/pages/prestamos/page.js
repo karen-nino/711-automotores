@@ -17,7 +17,7 @@ const Prestamos = () => {
                 </section>
 
                 <section className="col-span-5 row-start-2">
-                    <div className='min-h-screen overflow-auto bg-gray-200'>
+                    <div className='h-screen overflow-auto bg-gray-200'>
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
@@ -95,21 +95,19 @@ const Prestamos = () => {
                                 <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LOS PRÉSTAMOS ACTIVOS</label>
 
                                 <div className='grid gap-5  grid-cols-[600px,600px]'>
-
+                                    
                                     <article className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
                                                 2
                                             </div>
                                         </div>
-
                                         <div className='relative flex justify-between w-full p-4 bg-white'>
                                             <div>
                                                 <p className=''>Héctor Hernández Copca</p>
                                                 <p className='tracking-wide text-gray-500'>Nissan Sentra 2017</p>
                                                 <p className='tracking-wide text-gray-500'>30 May 2023 - 30 jun 2023</p>
                                             </div>
-
                                             <div>
                                                 <div className='flex items-center'>
                                                     <p className='mr-2 text-2xl'>$32,200.00</p>
@@ -120,16 +118,15 @@ const Prestamos = () => {
                                                     </a>
                                                 </div>
                                             </div>
-
                                             <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-green-700'>
                                                 <p className='text-xs tracking-wider text-white'>Activo</p>
                                             </div>
                                         </div>
-
                                     </article>
+                                    
                                 </div>
+                                
                             </section>
-
 
                             <div class="border-t border-gray-200 py-10">
                                 <div class="flex flex-1 justify-between sm:hidden ">

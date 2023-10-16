@@ -17,7 +17,7 @@ const HistorialPrendas = () => {
                 </section>
 
                 <section className="col-span-5 row-start-2">
-                    <div className='min-h-screen overflow-auto bg-gray-200'>
+                    <div className='h-screen overflow-auto bg-gray-200'>
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
@@ -91,24 +91,23 @@ const HistorialPrendas = () => {
 
                                 <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LAS PRENDAS VENDIDAS</label>
 
-                                {/* <div className='grid gap-5  grid-cols-[600px,600px]'>
-                                    <article className='flex cursor-pointer'>
+                                <div className='grid gap-5  grid-cols-[600px,600px]'>
+                                    
+                                <article className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
-                                                9-1
+                                                1-1
                                             </div>
                                         </div>
-
                                         <div className='relative flex justify-between w-full p-4 bg-white'>
                                             <div>
-                                                <p className=''>Ford Focus 2009</p>
-                                                <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
-                                                <p className='tracking-wide text-gray-500'>05  jun 2023</p>
+                                                <p className=''>Nissan Focus 2013</p>
+                                                <p className='tracking-wide text-gray-500'>No. Serie 300 2000km</p>
+                                                <p className='tracking-wide text-gray-500'>30 May 2023</p>
                                             </div>
-
                                             <div>
                                                 <div className='flex items-center'>
-                                                    <p className='mr-2 text-sm'>Empeñado</p>
+                                                    <p className='mr-2 text-2xl'>$32,200.00</p>
                                                     <a className='flex items-center justify-center w-6 h-6 bg-gray-100 rounded-sm hover:bg-gray-300'>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                                             <path d="M7.5 9C7.5 9.39782 7.65804 9.77936 7.93934 10.0607C8.22064 10.342 8.60218 10.5 9 10.5C9.39782 10.5 9.77936 10.342 10.0607 10.0607C10.342 9.77936 10.5 9.39782 10.5 9C10.5 8.60218 10.342 8.22064 10.0607 7.93934C9.77936 7.65804 9.39782 7.5 9 7.5C8.60218 7.5 8.22064 7.65804 7.93934 7.93934C7.65804 8.22064 7.5 8.60218 7.5 9ZM7.5 4.5C7.5 4.89782 7.65804 5.27936 7.93934 5.56066C8.22064 5.84196 8.60218 6 9 6C9.39782 6 9.77936 5.84196 10.0607 5.56066C10.342 5.27936 10.5 4.89782 10.5 4.5C10.5 4.10218 10.342 3.72064 10.0607 3.43934C9.77936 3.15804 9.39782 3 9 3C8.60218 3 8.22064 3.15804 7.93934 3.43934C7.65804 3.72064 7.5 4.10218 7.5 4.5ZM7.5 13.5C7.5 13.8978 7.65804 14.2794 7.93934 14.5607C8.22064 14.842 8.60218 15 9 15C9.39782 15 9.77936 14.842 10.0607 14.5607C10.342 14.2794 10.5 13.8978 10.5 13.5C10.5 13.1022 10.342 12.7206 10.0607 12.4393C9.77936 12.158 9.39782 12 9 12C8.60218 12 8.22064 12.158 7.93934 12.4393C7.65804 12.7206 7.5 13.1022 7.5 13.5Z" fill="#4B5563" />
@@ -116,13 +115,13 @@ const HistorialPrendas = () => {
                                                     </a>
                                                 </div>
                                             </div>
-
-                                            <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-green-700'>
-                                                <p className='text-xs tracking-wider text-white'>Empeñado</p>
+                                            <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-gray-300'>
+                                                <p className='text-xs tracking-wider'>Vendido</p>
                                             </div>
                                         </div>
                                     </article>
-                                </div> */}
+                                    
+                                </div>
 
                             </section>
 
