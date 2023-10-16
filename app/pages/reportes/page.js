@@ -17,7 +17,7 @@ const Reportes = () => {
                 </section>
 
                 <section className="col-span-5 row-start-2">
-                    <div className='min-h-screen overflow-auto bg-gray-200'>
+                    <div className='h-screen overflow-auto bg-gray-200'>
 
                         <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                             <div className='mr-3'>
@@ -29,17 +29,124 @@ const Reportes = () => {
                             <span>Reportes</span>
                         </article>
 
-                        <section className='mt-10 ml-5'>
+                        <section className='mt-10 ml-5 mb-44'>
 
-                            <h3 class="block text-sm font-semibold text-gray-700 mb-4">Caja</h3>
-                            <h3 class="block text-sm font-semibold text-gray-700 mb-4">Clientes</h3>
-                            <h3 class="block text-sm font-semibold text-gray-700 mb-4">Préstamos</h3>
-                            <h3 class="block text-sm font-semibold text-gray-700 mb-4">Compras, ventas y apartados</h3>
-                            <h3 class="block text-sm font-semibold text-gray-700 mb-4">Inventario</h3>
-                            <h3 class="block text-sm font-semibold text-gray-700 mb-4">Respaldo</h3>
+                            <div className='mb-8'>
+                                <h3 class="block text-sm font-semibold text-gray-700 mb-4">Caja</h3>
+                                <div className='flex gap-4'>
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Caja de Empeño</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Caja de ventas</p>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className='mb-8'>
+                                <h3 class="block text-sm font-semibold text-gray-700 mb-4">Clientes</h3>
+                                <div className='flex gap-4'>
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Por orden Alfabético</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Por mejor puntuación</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Cumpleañeros del mes</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Sin actividad reciente</p>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className='mb-8'>
+                                <h3 class="block text-sm font-semibold text-gray-700 mb-4">Préstamos</h3>
+                                <div className='flex gap-4'>
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Préstamos vigentes</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Préstamos por vencer</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Préstamos vencidos</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Préstamos expirados</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Préstamos liquidados</p>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className='mb-8'>
+                                <h3 class="block text-sm font-semibold text-gray-700 mb-4">Compras, ventas y apartados</h3>
+                                <div className='flex gap-4'>
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Compras</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Ventas</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Apartados vigentes</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Apartados vencidos</p>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className='mb-8'>
+                                <h3 class="block text-sm font-semibold text-gray-700 mb-4">Inventario</h3>
+                                <div className='flex gap-4'>
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Prendas empeñadas</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Joyas empeñados</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Prendas en venta</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Joyas en venta</p>
+                                    </Link>
+
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Prendas apartadas</p>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className='mb-8'>
+                                <h3 class="block text-sm font-semibold text-gray-700 mb-4">Respaldo</h3>
+                                <div className='flex gap-4'>
+                                    <Link href="#" className='flex items-center justify-center w-56 bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Respaldo en Excel</p>
+                                    </Link>
+                                </div>
+                            </div>
 
                         </section>
-                        
+
                     </div>
                 </section>
 
