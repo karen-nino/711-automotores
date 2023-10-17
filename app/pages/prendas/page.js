@@ -86,7 +86,7 @@ const prendas = () => {
                             </div>
                             
 
-                            <section id="apartados" onclick="ocultar('apartados')" className='mt-10'>
+                            {/* <section id="apartados" onclick="ocultar('apartados')" className='mt-10'>
 
                                 <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LAS PRENDAS APARTADAS</label>
 
@@ -118,13 +118,13 @@ const prendas = () => {
                                             </div>
 
                                             <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-orange-700'>
-                                                <p className='text-xs tracking-wider text-white'>Apartadas</p>
+                                                <p className='text-xs tracking-wider text-white'>Apartado</p>
                                             </div>
                                         </div>
 
                                     </article>
                                 </div>
-                            </section>
+                            </section> */}
 
 
                             <section id="empeñados" className='mt-10'>
