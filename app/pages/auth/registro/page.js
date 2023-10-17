@@ -50,7 +50,7 @@ const Registro = () => {
                     </Link>
 
                     <div className='flex flex-col w-full mt-5'>
-                        <Link href='../pages/inicio-sesion' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</Link>
+                        <Link href='../auth/inicio-sesion' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Inicia sesión</Link>
                     </div>
 
                 </div>

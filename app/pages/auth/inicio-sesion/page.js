@@ -30,7 +30,7 @@ const InicioSesion = () => {
                         <input type="text" placeholder="Contraseña" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                     </div>
 
-                    <Link href="../pages/clientes" className='self-end block py-3 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item w-44 text-gray active:bg-green-700'>
+                    <Link href="../clientes" className='self-end block py-3 text-xs tracking-wide text-white bg-green-500 border border-b border-gray-300 rounded cursor-pointer item w-44 text-gray active:bg-green-700'>
                         <div className='flex justify-center'>
                             <span className='text-center'>Inicia sesión</span>
                         </div>
@@ -38,8 +38,8 @@ const InicioSesion = () => {
 
 
                     <div className='flex flex-col w-full mt-5'>
-                        <Link href='../pages/registro' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Crear una nueva cuenta</Link>
-                        <Link href='../pages/recuperar-contrasena' className='text-sm text-blue-600 cursor-pointer active:text-blue-800'>Olvidé mi contraseña</Link>
+                        <Link href='../auth/registro' className='mb-2 text-sm text-blue-600 cursor-pointer active:text-blue-800'>Crear una nueva cuenta</Link>
+                        <Link href='../auth/recuperar-contrasena' className='text-sm text-blue-600 cursor-pointer active:text-blue-800'>Olvidé mi contraseña</Link>
                     </div>
 
                 </div>
