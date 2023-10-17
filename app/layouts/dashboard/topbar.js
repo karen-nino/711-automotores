@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const Topbar = () => {
     return (
@@ -15,7 +16,7 @@ export const Topbar = () => {
             <div className='flex items-center justify-end px-5 gap-[20px]'>
                 <ul className='flex items-center gap-[20px]'>
                     <li>
-                        <a className='flex items-center gap-3 px-3 py-1 rounded-md cursor-pointer hover:bg-sky-800'>
+                        <Link href="#" className='flex items-center gap-3 px-3 py-1 rounded-md cursor-pointer hover:bg-sky-800'>
                             <div className='flex items-center justify-center w-10 h-10 rounded-full bg-sky-600'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 19 24" fill="none">
                                     <g clip-path="url(#clip0_103_1495)">
@@ -34,10 +35,10 @@ export const Topbar = () => {
                                     <path d="M17 10L12 15L7 10L17 10Z" fill="white" />
                                 </svg>
                             </div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className='flex items-center gap-3 px-3 py-1 rounded-md cursor-pointer hover:bg-sky-800'>
+                        <Link href="#" className='flex items-center gap-3 px-3 py-1 rounded-md cursor-pointer hover:bg-sky-800'>
                             <div className='flex items-center justify-center w-10 h-10 rounded-full bg-sky-600'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 24" fill="none">
                                     <g clip-path="url(#clip0_103_1501)">
@@ -56,10 +57,10 @@ export const Topbar = () => {
                                     <path d="M17 10L12 15L7 10L17 10Z" fill="white" />
                                 </svg>
                             </div>
-                        </a>
+                        </Link>
                     </li>
                     <li className='flex'>
-                        <a className='px-3 py-1 rounded-md cursor-pointer hover:bg-sky-800'>
+                        <Link href="../pages/auth/inicio-sesion" className='px-3 py-1 rounded-md cursor-pointer hover:bg-sky-800'>
                             <div className='flex items-center justify-center w-10 h-10 rounded-full bg-sky-600'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 24" fill="none">
                                     <g clip-path="url(#clip0_103_1497)">
@@ -72,7 +73,7 @@ export const Topbar = () => {
                                     </defs>
                                 </svg>
                             </div>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
