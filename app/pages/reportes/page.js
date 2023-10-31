@@ -47,8 +47,8 @@ const Reportes = () => {
                             <div className='mb-8'>
                                 <h3 class="block text-sm font-semibold text-gray-700 mb-4">Clientes</h3>
                                 <div className='flex gap-4'>
-                                    <Link href="#" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
-                                        <p className='font-bold text-gray-500'>Por orden Alfabético</p>
+                                    <Link href="./reportes/clientes/orden-alfabetico" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <p className='font-bold text-gray-500'>Por orden alfabético</p>
                                     </Link>
 
                                     <Link href="#" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
