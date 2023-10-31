@@ -41,7 +41,7 @@ const prendas = () => {
                                 <a>En venta</a>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a value="Ocultar">Apartados</a>
+                                <a value="Ocultar">Consignación</a>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>
                                 <a>Empeñados</a>
