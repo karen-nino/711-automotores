@@ -2,7 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import Link from 'next/link'
 
-const MejorPuntuacion = () => {
+const PrestamosVigentes = () => {
     return (
         <div>
             <div className='flex flex-col'>
@@ -26,20 +26,23 @@ const MejorPuntuacion = () => {
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M15 20L7 12L15 4L17 6L11 12L17 18L15 20Z" />
                                     </svg>
                                 </Link>
-                                <span>Mejor puntuación</span>
+                                <span>Préstamos vigentes</span>
                             </article>
 
-                            <article className='flex items-center justify-end gap-3 pr-6 text-base bg-white h-14'>
-                                <Link href="#" className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300'>
-                                    <div className='flex justify-center'>
-                                        <span className='text-center'>Volver</span>
-                                    </div>
-                                </Link>
-                                <Link href="#" className='block px-5 py-3 text-xs tracking-wide text-white bg-green-500 border rounded cursor-pointer active:bg-green-600'>
-                                    <div className='flex justify-center'>
-                                        <span className='text-center'>Imprimir</span>
-                                    </div>
-                                </Link>
+                            <article className='flex items-center justify-between px-6 text-base bg-white h-14'>
+                                <div className='h-full bg-gray-300 w-80'></div>
+                                <div className='flex gap-3'>
+                                    <Link href="#" className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300'>
+                                        <div className='flex justify-center'>
+                                            <span className='text-center'>Volver</span>
+                                        </div>
+                                    </Link>
+                                    <Link href="#" className='block px-5 py-3 text-xs tracking-wide text-white bg-green-500 border rounded cursor-pointer active:bg-green-600'>
+                                        <div className='flex justify-center'>
+                                            <span className='text-center'>Imprimir</span>
+                                        </div>
+                                    </Link>
+                                </div>
                             </article>
 
                             <section className='mx-5 mt-10 mb-44'>
@@ -51,86 +54,60 @@ const MejorPuntuacion = () => {
                                                 <tr>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Fecha de registro
+                                                        Fecha de préstamo
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Nombre
+                                                        Fecha de vencimiento
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Apellidos
+                                                        Contrato
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Fecha de Nacimiento
+                                                        Cliente
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Teléfono
+                                                        Prenda
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Tipo de identificación
+                                                        Monto del préstamo
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        No. identificación
+                                                        Abonado a capital
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Puntuación
+                                                        Intereses pagados
+                                                    </th>
+                                                    <th
+                                                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                                        Recargos extemp. pagados
+                                                    </th>
+                                                    <th
+                                                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                                        Reemplazos de la boleta
+                                                    </th>
+                                                    <th
+                                                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                                        Descuentos
                                                     </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr>
+                                                {/* <tr>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
-
                                                             <p class="text-gray-900 whitespace-no-wrap">
-                                                                22/06/23
+                                                                Total
                                                             </p>
-
                                                         </div>
                                                     </td>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <p class="text-gray-900 whitespace-no-wrap">
-                                                            Alejandro
-                                                        </p>
-                                                    </td>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <p class="text-gray-900 whitespace-no-wrap">
-                                                            Aguilar Islas
-                                                        </p>
-                                                    </td>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <p class="text-gray-900 whitespace-no-wrap">
-                                                            22 de Febrero 1985
-                                                        </p>
-                                                    </td>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <p class="text-gray-900 whitespace-no-wrap">
-                                                            455 5654 234
-                                                        </p>
-                                                    </td>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <p class="text-gray-900 whitespace-no-wrap">
-                                                            ejemplo@gmail.com
-                                                        </p>
-                                                    </td>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <p class="text-gray-900 whitespace-no-wrap">
-                                                            Identificación oficial
-                                                        </p>
-                                                    </td>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <p class="text-gray-900 whitespace-no-wrap">
-                                                            0
-                                                        </p>
-                                                    </td>
-
-                                                </tr>
+                                                </tr> */}
                                             </tbody>
                                         </table>
                                         <div
@@ -161,8 +138,10 @@ const MejorPuntuacion = () => {
                 </div>
 
             </div>
+
+
         </div>
     )
 }
 
-export default MejorPuntuacion
+export default PrestamosVigentes
