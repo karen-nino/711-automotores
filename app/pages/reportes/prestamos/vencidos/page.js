@@ -41,7 +41,7 @@ const PrestamosVencidos = () => {
                                         <input class="scale-125" type="radio" name="sfg" />
                                         <div class="flex px-2 gap-2 text-sm">
                                             <span>Últimos</span>
-                                            <input type="number" min="0" max="10" step="1" value="5" name="newinput" className='w-12 pl-1 border border-gray-500'/>
+                                            <input type="number" min="0" max="10" step="1" value="5" name="newinput" className='w-12 pl-1 border border-gray-500' />
                                             <span>días</span>
                                         </div>
                                     </label>
@@ -69,11 +69,15 @@ const PrestamosVencidos = () => {
                                                 <tr>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Fecha de préstamo
+                                                        Fecha de vencimiento
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Fecha de vencimiento
+                                                        Fecha de  préstamo
+                                                    </th>
+                                                    <th
+                                                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                                        Días vencidos
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
@@ -82,6 +86,10 @@ const PrestamosVencidos = () => {
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                                                         Cliente
+                                                    </th>
+                                                    <th
+                                                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                                        Teléfono
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
@@ -114,19 +122,113 @@ const PrestamosVencidos = () => {
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                {/* <tr>
-                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                        <div class="flex items-center">
-                                            <p class="text-gray-900 whitespace-no-wrap">
-                                                Total
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr> */}
+                                                <tr>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                05/08/2023
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                05/06/2023
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                9
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                9
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Héctor hernández Copca
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                7712346789
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Ford Focus 2009
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $45,000.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $300.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $5,220.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $0.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $0.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $0.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Total
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
                                             </tbody>
                                         </table>
+                                    </div>
                                         <div
-                                            class="px-5 py-5 bg-white border-t flex flex-col xs:flex-row items-center xs:justify-between">
+                                            class="px-5 py-5 border-t flex flex-col xs:flex-row items-center xs:justify-between">
                                             <span class="text-xs xs:text-sm text-gray-900">
                                                 Showing 1 to 4 of 50 Entries
                                             </span>
@@ -142,7 +244,6 @@ const PrestamosVencidos = () => {
                                                 </button>
                                             </div>
                                         </div>
-                                    </div>
                                 </div>
 
                             </section>
