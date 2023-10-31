@@ -51,7 +51,7 @@ const Reportes = () => {
                                         <p className='font-bold text-gray-500'>Por orden alfabético</p>
                                     </Link>
 
-                                    <Link href="#" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                    <Link href="./reportes/clientes/mejor-puntuacion" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
                                         <p className='font-bold text-gray-500'>Por mejor puntuación</p>
                                     </Link>
 
