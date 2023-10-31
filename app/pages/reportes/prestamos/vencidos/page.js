@@ -2,7 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import Link from 'next/link'
 
-const PrestamosVigentes = () => {
+const PrestamosVencidos = () => {
     return (
         <div>
             <div className='flex flex-col'>
@@ -26,11 +26,26 @@ const PrestamosVigentes = () => {
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M15 20L7 12L15 4L17 6L11 12L17 18L15 20Z" />
                                     </svg>
                                 </Link>
-                                <span>Préstamos vigentes</span>
+                                <span>Préstamos vencidos</span>
                             </article>
 
-                            <article className='flex items-center justify-between px-6 text-base bg-white h-14'>
-                                <div className='h-full bg-gray-300 w-80'></div>
+                            <article className='flex items-center justify-between px-6 py-3 text-base bg-white'>
+                                <div className='w-80'>
+                                    <span className='text-sm font-bold'>Mostrar</span>
+                                    <label class="flex radio py-2 cursor-pointer">
+                                        <input class="scale-125" type="radio" name="sfg" />
+                                        <div class="px-2 text-sm">Todos</div>
+                                    </label>
+
+                                    <label class="flex radio py-2 cursor-pointer">
+                                        <input class="scale-125" type="radio" name="sfg" />
+                                        <div class="flex px-2 gap-2 text-sm">
+                                            <span>Últimos</span>
+                                            <input type="number" min="0" max="10" step="1" value="5" name="newinput" className='w-12 pl-1 border border-gray-500'/>
+                                            <span>días</span>
+                                        </div>
+                                    </label>
+                                </div>
                                 <div className='flex gap-3'>
                                     <Link href="#" className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300'>
                                         <div className='flex justify-center'>
@@ -100,14 +115,14 @@ const PrestamosVigentes = () => {
                                             </thead>
                                             <tbody>
                                                 {/* <tr>
-                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                                        <div class="flex items-center">
-                                                            <p class="text-gray-900 whitespace-no-wrap">
-                                                                Total
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr> */}
+                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                        <div class="flex items-center">
+                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                Total
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr> */}
                                             </tbody>
                                         </table>
                                         <div
@@ -142,4 +157,4 @@ const PrestamosVigentes = () => {
     )
 }
 
-export default PrestamosVigentes
+export default PrestamosVencidos

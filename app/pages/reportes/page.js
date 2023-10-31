@@ -76,7 +76,7 @@ const Reportes = () => {
                                         <p className='font-bold text-gray-500'>Préstamos por vencer</p>
                                     </Link>
 
-                                    <Link href="#" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                    <Link href="./reportes/prestamos/vencidos" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
                                         <p className='font-bold text-gray-500'>Préstamos vencidos</p>
                                     </Link>
 
