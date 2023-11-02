@@ -40,7 +40,7 @@ const CajaVentas = () => {
                                 <div className='mb-8'>
                                     <h3 class="block text-sm font-semibold text-gray-700 mb-4">Caja de ventas </h3>
                                     <div className='flex gap-4'>
-                                        <Link href="#" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <Link href="./caja-de-ventas/flujo-de-caja" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
                                             <p className='font-bold text-gray-500'>Flujo de caja</p>
                                         </Link>
 

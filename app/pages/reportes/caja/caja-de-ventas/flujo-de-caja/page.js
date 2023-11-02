@@ -2,7 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import Link from 'next/link'
 
-const ComprasReportes = () => {
+const FlujoCaja = () => {
     return (
         <div>
             <div className='flex flex-col'>
@@ -21,12 +21,12 @@ const ComprasReportes = () => {
                         <div className='h-screen overflow-auto bg-gray-200'>
 
                             <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
-                                <Link href="../../reportes" className='mr-3'>
+                                <Link href="../../caja/caja-de-ventas" className='mr-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='cursor-pointer fill-white hover:fill-gray-400'>
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M15 20L7 12L15 4L17 6L11 12L17 18L15 20Z" />
                                     </svg>
                                 </Link>
-                                <span>Compras</span>
+                                <span>Flujo de caja</span>
                             </article>
 
                             <article className='flex items-center justify-between px-6 py-3 text-base bg-white'>
@@ -38,6 +38,13 @@ const ComprasReportes = () => {
                                     <div className='flex flex-col mb-2'>
                                         <span className='pb-2 text-sm font-bold'>Hasta</span>
                                         <input type="date" name="newinput" className='text-sm border border-gray-500' />
+                                    </div>
+                                    <div className='flex flex-col mb-2'>
+                                        <span className='pb-2 text-sm font-bold'>Tipo</span>
+                                        <select id="tipo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full">
+                                            <option selected>Tipo</option>
+                                            <option value="tipo">-</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div className='flex gap-3'>
@@ -63,78 +70,133 @@ const ComprasReportes = () => {
                                                 <tr>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Stock
+                                                        Fecha
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Fecha de compra
+                                                        Usuario
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Dueño original
+                                                        Concepto 
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Prenda
+                                                        Detalles
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Precio de compra
+                                                        Entradas
                                                     </th>
                                                     <th
                                                         class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                                        Precio de venta
+                                                        Salidas
+                                                    </th>
+                                                    <th
+                                                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                                        Saldo
                                                     </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    {/* <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
-                                                                05/08/2023
+                                                                
                                                             </p>
                                                         </div>
-                                                    </td> */}
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                            
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Fondo inicial
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $1,436,455.20
+                                                            </p>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
-                                                                Total
+                                                                
                                                             </p>
                                                         </div>
                                                     </td>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
-                                                                0
+                                                            
                                                             </p>
                                                         </div>
                                                     </td>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
+                                                                Disponible en caja
                                                             </p>
                                                         </div>
                                                     </td>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
+                                                                
                                                             </p>
                                                         </div>
                                                     </td>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
-                                                                $0.00
+
                                                             </p>
                                                         </div>
                                                     </td>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
-                                                                Precio de venta
+
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $1,436,455.20
                                                             </p>
                                                         </div>
                                                     </td>
@@ -173,4 +235,4 @@ const ComprasReportes = () => {
     )
 }
 
-export default ComprasReportes
+export default FlujoCaja
