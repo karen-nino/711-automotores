@@ -133,7 +133,7 @@ const prendas = () => {
 
                                 <div className='grid gap-5  grid-cols-[600px,600px]'>
 
-                                    <article className='flex cursor-pointer'>
+                                    <Link href="./prendas/detalles-prenda" className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
                                                 9-1
@@ -162,8 +162,7 @@ const prendas = () => {
                                                 <p className='text-xs tracking-wider text-white'>Empeñado</p>
                                             </div>
                                         </div>
-
-                                    </article>
+                                    </Link>
                                 </div>
                             </section>
 

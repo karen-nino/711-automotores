@@ -93,7 +93,7 @@ const HistorialPrendas = () => {
 
                                 <div className='grid gap-5  grid-cols-[600px,600px]'>
                                     
-                                <article className='flex cursor-pointer'>
+                                <Link href="./historial-prendas/detalles-de-prendas" className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
                                                 1-1
@@ -119,7 +119,7 @@ const HistorialPrendas = () => {
                                                 <p className='text-xs tracking-wider'>Vendido</p>
                                             </div>
                                         </div>
-                                    </article>
+                                    </Link>
                                     
                                 </div>
 
