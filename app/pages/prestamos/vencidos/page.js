@@ -99,7 +99,7 @@ const PrestamosVencidos = () => {
 
                                     <div className='grid gap-5  grid-cols-[600px,600px]'>
 
-                                        <article className='flex cursor-pointer'>
+                                        <Link href="./detalles-del-prestamo" className='flex cursor-pointer'>
                                             <div>
                                                 <div className='flex items-center justify-center w-32 h-full text-white bg-orange-500'>
                                                     2
@@ -125,7 +125,7 @@ const PrestamosVencidos = () => {
                                                     <p className='text-xs tracking-wider text-white'>Vencido</p>
                                                 </div>
                                             </div>
-                                        </article>
+                                        </Link>
 
                                     </div>
 
