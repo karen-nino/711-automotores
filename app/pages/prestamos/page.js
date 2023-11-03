@@ -35,12 +35,16 @@ const Prestamos = () => {
                             <span>Préstamos</span>
                         </article>
 
-                        <ul className='flex items-center text-base bg-gray-100 text-gray h-14'>
+                        <ul className='flex items-center text-base bg-gray-100 select-none text-gray h-14'>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>
-                                <a>Activos</a>
+                                <Link href="#">
+                                    Activos
+                                </Link>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a>Vencidos</a>
+                                <Link href="./prestamos/vencidos">
+                                    Vencidos
+                                </Link>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
                                 <a>Expirados</a>
@@ -95,7 +99,7 @@ const Prestamos = () => {
                                 <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LOS PRÉSTAMOS ACTIVOS</label>
 
                                 <div className='grid gap-5  grid-cols-[600px,600px]'>
-                                    
+
                                     <article className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
@@ -123,9 +127,9 @@ const Prestamos = () => {
                                             </div>
                                         </div>
                                     </article>
-                                    
+
                                 </div>
-                                
+
                             </section>
 
                             <div class="border-t border-gray-200 py-10">
