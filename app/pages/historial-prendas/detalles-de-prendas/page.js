@@ -2,7 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import Link from 'next/link'
 
-const DetallesPrendas = () => {
+const DetallesDePrendas = () => {
     return (
         <div>
             <div className='flex flex-col'>
@@ -50,7 +50,6 @@ const DetallesPrendas = () => {
                                     </div>
                                 </article>
 
-
                             </section>
 
                         </div>
@@ -63,4 +62,4 @@ const DetallesPrendas = () => {
     )
 }
 
-export default DetallesPrendas
+export default DetallesDePrendas

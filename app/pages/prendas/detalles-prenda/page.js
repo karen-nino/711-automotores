@@ -47,9 +47,67 @@ const DetallesPrenda = () => {
                                             <div className='w-[150px]'>Dueño original</div>
                                             <div className=''>Héctor Hernández Copca</div>
                                         </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Descripción</div>
+                                            <div className=''>Ford Focus 2009</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Detalles</div>
+                                            <div className=''>No. Serie 344 4000km</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Observaciones</div>
+                                            <div className=''>Perfecto</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Avalúo</div>
+                                            <div className=''>$3.00</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Prestado</div>
+                                            <div className=''>$45,000.00</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Adquisición</div>
+                                            <div className=''>Empeño</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Estado</div>
+                                            <div className=''>Empeño</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px]'>Encargado</div>
+                                            <div className=''>Lizbeth Ramos</div>
+                                        </div>
                                     </div>
                                 </article>
 
+                                <article className='pb-10'>
+                                    <div className='w-full p-4 text-white bg-gray-700'>
+                                        <h3>Documentos</h3>
+                                    </div>
+
+                                    {/* <div className='w-full px-4 py-6 text-gray-500 break-words bg-white'>
+                                    </div> */}
+                                </article>
+                                
+                                <article className='pb-10'>
+                                    <div className='w-full p-4 text-white bg-gray-700'>
+                                        <h3>Fotos</h3>
+                                    </div>
+
+                                    {/* <div className='w-full px-4 py-6 text-gray-500 break-words bg-white'>
+                                    </div> */}
+                                </article>
+                                
+                                <article className='pb-10'>
+                                    <div className='w-full p-4 text-white bg-gray-700'>
+                                        <h3>Información post-venta</h3>
+                                    </div>
+
+                                    {/* <div className='w-full px-4 py-6 text-gray-500 break-words bg-white'>
+                                    </div> */}
+                                </article>
 
                             </section>
 
