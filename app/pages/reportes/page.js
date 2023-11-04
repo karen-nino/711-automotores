@@ -47,11 +47,31 @@ const Reportes = () => {
                             <div className='mb-8'>
                                 <h3 class="block text-sm font-semibold text-gray-700 mb-4">Clientes</h3>
                                 <div className='flex gap-4'>
-                                    <Link href="./reportes/clientes/orden-alfabetico" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                    <Link href="./reportes/clientes/orden-alfabetico" className='flex flex-col items-center justify-center w-56 gap-2 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 30 32" fill="none">
+                                            <g clip-path="url(#clip0_468_2198)">
+                                                <path d="M20.6983 7.28571H23.859L22.5733 3.39286L22.359 2.55357C22.3352 2.3631 22.3233 2.24405 22.3233 2.19643H22.2519L22.1983 2.55357C22.1983 2.56548 22.1775 2.67262 22.1358 2.875C22.0942 3.07738 22.0495 3.25 22.0019 3.39286L20.6983 7.28571ZM12.5733 25.7143C12.5733 25.8571 12.5138 26 12.3947 26.1429L6.69832 31.8393C6.57927 31.9464 6.44237 32 6.28761 32C6.14475 32 6.00784 31.9464 5.87689 31.8393L0.162604 26.125C-0.0159669 25.9345 -0.0576336 25.7262 0.0376045 25.5C0.132843 25.2619 0.311414 25.1429 0.573319 25.1429H4.00189V0.571429C4.00189 0.404762 4.05546 0.267857 4.1626 0.160714C4.26975 0.0535714 4.40665 0 4.57332 0H8.00189C8.16856 0 8.30546 0.0535714 8.41261 0.160714C8.51975 0.267857 8.57332 0.404762 8.57332 0.571429V25.1429H12.0019C12.1686 25.1429 12.3055 25.1964 12.4126 25.3036C12.5197 25.4107 12.5733 25.5476 12.5733 25.7143ZM27.5019 27.8393V32H17.0733V30.3929L23.6626 20.9464C23.8055 20.7321 23.9305 20.5714 24.0376 20.4643L24.234 20.3036V20.25C24.2102 20.25 24.1715 20.253 24.118 20.2589C24.0644 20.2649 24.0197 20.2679 23.984 20.2679C23.8412 20.3036 23.6626 20.3214 23.4483 20.3214H19.3055V22.375H17.1626V18.2857H27.2876V19.875L20.6983 29.3393C20.6269 29.4345 20.5019 29.5893 20.3233 29.8036L20.1269 30V30.0357L20.3769 30C20.484 29.9762 20.6626 29.9643 20.9126 29.9643H25.3412V27.8393H27.5019ZM29.0912 11.8214V13.7143H23.9483V11.8214H25.2876L24.4483 9.25H20.109L19.2697 11.8214H20.609V13.7143H15.484V11.8214H16.734L20.8412 0H23.734L27.8412 11.8214H29.0912Z" fill="#686868" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_468_2198">
+                                                    <rect width="29.1467" height="32" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
                                         <p className='font-bold text-gray-500'>Por orden alfabético</p>
                                     </Link>
 
-                                    <Link href="./reportes/clientes/mejor-puntuacion" className='flex items-center justify-center w-56 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                    <Link href="./reportes/clientes/mejor-puntuacion" className='flex flex-col items-center justify-center w-56 gap-2 text-center bg-white border-2 border-gray-300 border-solid h-28'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32" fill="none">
+                                            <g clip-path="url(#clip0_468_2200)">
+                                                <path d="M33.28 12.3C33.28 12.5933 33.1067 12.9133 32.76 13.26L25.5 20.34L27.22 30.34C27.2333 30.4333 27.24 30.5667 27.24 30.74C27.24 31.02 27.17 31.2567 27.03 31.45C26.89 31.6433 26.6867 31.74 26.42 31.74C26.1667 31.74 25.9 31.66 25.62 31.5L16.64 26.78L7.66 31.5C7.36667 31.66 7.1 31.74 6.86 31.74C6.58 31.74 6.37 31.6433 6.23 31.45C6.09 31.2567 6.02 31.02 6.02 30.74C6.02 30.66 6.03333 30.5267 6.06 30.34L7.78 20.34L0.5 13.26C0.166667 12.9 0 12.58 0 12.3C0 11.8067 0.373333 11.5 1.12 11.38L11.16 9.92L15.66 0.82C15.9133 0.273333 16.24 0 16.64 0C17.04 0 17.3667 0.273333 17.62 0.82L22.12 9.92L32.16 11.38C32.9067 11.5 33.28 11.8067 33.28 12.3Z" fill="#686868" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_468_2200">
+                                                    <rect width="33.28" height="32" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
                                         <p className='font-bold text-gray-500'>Por mejor puntuación</p>
                                     </Link>
 
