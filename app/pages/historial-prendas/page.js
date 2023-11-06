@@ -40,7 +40,7 @@ const HistorialPrendas = () => {
                                 <a>Vendidos</a>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a>Liquidados</a>
+                                <a>Desempeñados</a>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
                                 <a>No aprobados</a>
