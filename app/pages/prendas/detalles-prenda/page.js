@@ -60,6 +60,10 @@ const DetallesPrenda = () => {
                                             <div className=''>Perfecto</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
+                                            <div className='w-[150px] font-bold'>Ubicación</div>
+                                            <div className=''>Querétaro</div>
+                                        </div>
+                                        <div className='flex pb-3 text-sm'>
                                             <div className='w-[150px] font-bold'>Avalúo</div>
                                             <div className=''>$3.00</div>
                                         </div>
