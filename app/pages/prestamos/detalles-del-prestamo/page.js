@@ -81,18 +81,47 @@ const DetallesPrestamo = () => {
                                     <p>Alejandro Aguilar Islas</p>
                                 </div>
 
-                                <div className='w-full px-4 py-6 text-gray-500 bg-white'>
-                                    <ul className='text-sm'>
-                                        <li className='pb-3'>Prendas</li>
-                                        <li className='pb-3'>Monto del préstamo</li>
-                                        <li className='pb-3'>Fecha de vencimiento</li>
-                                        <li className='pb-3'>Comercialización</li>
-                                        <li className='pb-3'>Interés</li>
-                                        <li className='pb-3'>Periodo</li>
-                                        <li className='pb-3'>Plazo</li>
-                                        <li className='pb-3'>Categoría</li>
-                                        <li className='pb-3'>Estado</li>
-                                    </ul>
+                                <div className='w-full px-4 py-6 text-gray-500 break-words bg-white'>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Prendas</div>
+                                        <div className=''>Ford Focus 2018</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Monto del préstamo</div>
+                                        <div className=''>$10,000.00</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Fecha de préstamo</div>
+                                        <div className=''>30 de mayo de 2003</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Fecha de vencimiento</div>
+                                        <div className=''>1 de Junio de 2023</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Comercialización</div>
+                                        <div className=''>6 de Junio de 2023</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Interés</div>
+                                        <div className=''>11.6%</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Periodo</div>
+                                        <div className=''>Diario</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Plazo</div>
+                                        <div className=''>1 día</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Categoría</div>
+                                        <div className=''>General</div>
+                                    </div>
+                                    <div className='flex pb-3 text-sm'>
+                                        <div className='w-[150px] font-bold'>Estado</div>
+                                        <div className=''>Empeño</div>
+                                    </div>
                                 </div>
                             </article>
 
