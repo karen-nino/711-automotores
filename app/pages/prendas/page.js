@@ -144,6 +144,7 @@ const prendas = () => {
                                             <div>
                                                 <p className=''>Ford Focus 2009</p>
                                                 <p className='tracking-wide text-gray-500'>No. Serie344 40000km</p>
+                                                <p className='tracking-wide text-gray-500'>Querétaro</p>
                                                 <p className='tracking-wide text-gray-500'>05  jun 2023</p>
                                             </div>
 
