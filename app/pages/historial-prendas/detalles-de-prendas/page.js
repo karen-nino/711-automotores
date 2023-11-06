@@ -40,55 +40,55 @@ const DetallesDePrendas = () => {
 
                                     <div className='w-full px-4 py-6 text-gray-500 break-words bg-white'>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Stock</div>
+                                            <div className='w-[150px] font-bold'>Stock</div>
                                             <div className=''>1-1</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Dueño original</div>
+                                            <div className='w-[150px] font-bold'>Dueño original</div>
                                             <div className=''>Emiliano Gomez Barrones</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Descripción</div>
+                                            <div className='w-[150px] font-bold'>Descripción</div>
                                             <div className=''>Nissan Focus 2023</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Detalles</div>
+                                            <div className='w-[150px] font-bold'>Detalles</div>
                                             <div className=''>No. Serie 300 2000km</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Observaciones</div>
+                                            <div className='w-[150px] font-bold'>Observaciones</div>
                                             <div className=''>Perfectas condiciones</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Avalúo</div>
+                                            <div className='w-[150px] font-bold'>Avalúo</div>
                                             <div className=''>$2.00</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Fecha venta</div>
+                                            <div className='w-[150px] font-bold'>Fecha venta</div>
                                             <div className=''>22/06/2023</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Prestado</div>
+                                            <div className='w-[150px] font-bold'>Prestado</div>
                                             <div className=''>$200,000.00</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Precio venta</div>
+                                            <div className='w-[150px] font-bold'>Precio venta</div>
                                             <div className=''>$210,000.00</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Adquisición</div>
+                                            <div className='w-[150px] font-bold'>Adquisición</div>
                                             <div className=''>Empeño</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Estado</div>
+                                            <div className='w-[150px] font-bold'>Estado</div>
                                             <div className=''>Vendido</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Vendido a</div>
+                                            <div className='w-[150px] font-bold'>Vendido a</div>
                                             <div className=''>Lizbeth Ramos</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Vendido por</div>
+                                            <div className='w-[150px] font-bold'>Vendido por</div>
                                             <div className=''>Orlando Daniel Virgen Z</div>
                                         </div>
                                     </div>
