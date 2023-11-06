@@ -17,8 +17,8 @@ const DetallesDePrendas = () => {
                         <Sidebar />
                     </section>
 
-                    <section className="col-span-5 row-start-2 overflow-auto">
-                        <div className='h-screen bg-gray-200'>
+                    <section className="col-span-5 row-start-2">
+                        <div className='h-screen pb-64 overflow-auto bg-gray-200'>
 
                             <article className='flex items-center pl-6 text-base text-white bg-gray-700 h-14'>
                                 <Link href="../prendas" className='mr-3'>
@@ -95,8 +95,13 @@ const DetallesDePrendas = () => {
                                 </article>
                                 
                                 <article className='pb-10'>
-                                    <div className='w-full p-4 text-white bg-gray-700'>
+                                    <div className='flex items-center justify-between w-full p-4 text-white bg-gray-700'>
                                         <h3>Fotos</h3>
+                                        <a className='block px-5 py-2 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300'>
+                                            <div className='flex justify-center'>
+                                                <span className='text-center'>Agregar</span>
+                                            </div>
+                                        </a>
                                     </div>
 
                                     {/* <div className='w-full px-4 py-6 text-gray-500 break-words bg-white'>
