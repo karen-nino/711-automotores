@@ -82,7 +82,7 @@ const Reportes = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <p className='font-bold text-gray-500'>Por mejor puntuación</p>
+                                        <p className='font-bold text-gray-500'>Por categoría</p>
                                     </Link>
 
                                     <Link href="#" className='flex flex-col items-center justify-center w-56 gap-2 text-center bg-white border-2 border-gray-300 border-solid h-28'>
@@ -293,7 +293,7 @@ const Reportes = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <p className='font-bold text-gray-500'>Prendas apartadas</p>
+                                        <p className='font-bold text-gray-500'>Prendas por consignación</p>
                                     </Link>
                                 </div>
                             </div>
