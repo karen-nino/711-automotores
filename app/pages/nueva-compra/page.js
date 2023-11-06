@@ -48,6 +48,16 @@ const NuevaCompra = () => {
                                     </div>
 
                                     <div className='mb-5'>
+                                        <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Tipo de movimiento</label>
+                                        <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                            <option selected>Selecciona el tipo de movimiento</option>
+                                            <option value="empeño">Empeño</option>
+                                            <option value="venta">Venta</option>
+                                            <option value="consignacion">Consignación</option>
+                                        </select>
+                                    </div>
+
+                                    <div className='mb-5'>
                                         <label for="marca" class="block mb-2 text-sm font-semibold text-gray-700">Marca</label>
                                         <input type="text" placeholder="Marca" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
