@@ -122,6 +122,94 @@ const PrendasEmpenadas = () => {
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                <tr>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                3-1
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                30/05/2023
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Ford Focus 2017
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Empeño
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $400,000.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $0.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                3-1
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                30/05/2023
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Ford Focus 2017
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                Empeño
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $400,000.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                                        <div class="flex items-center">
+                                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                                $0.00
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
                                                 <tr className='font-bold'>
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
@@ -154,7 +242,7 @@ const PrendasEmpenadas = () => {
                                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                         <div class="flex items-center">
                                                             <p class="text-gray-900 whitespace-no-wrap">
-                                                                $658,000.00
+                                                                $1,200,000.00
                                                             </p>
                                                         </div>
                                                     </td>
