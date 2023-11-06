@@ -77,12 +77,15 @@ const InformacionCliente = () => {
                         <section className='mt-10 ml-5 w-[698px] mb-44'>
 
                             <article className='pb-10'>
-                                <div className='w-full p-4 text-white bg-gray-700'>
-                                    <h3>Alejandro Aguilar Islas</h3>
-                                    <div className='flex'>
-                                        <p className='pr-2'>Puntuación:</p>
-                                        <span>0</span>
+                                <div className='flex justify-between w-full p-4 text-white bg-gray-700'>
+                                    <div>
+                                        <h3>Alejandro Aguilar Islas</h3>
+                                        <div className='flex'>
+                                            <p className='pr-2'>Puntuación:</p>
+                                            <span>0</span>
+                                        </div>
                                     </div>
+                                    <p>Clasificación: A</p>
                                 </div>
 
                                 <div className='w-full px-4 py-6 text-gray-500 bg-white'>

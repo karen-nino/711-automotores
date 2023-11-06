@@ -106,8 +106,8 @@ const Clientes = () => {
 
                     <div>
                       <div className='flex items-center'>
-                        <p className='mr-1 text-sm text-gray-500'>0</p>
-                        <div className='w-2 h-2 bg-green-500 rounded-full'></div>
+                        {/* <p className='mr-1 font-medium text-green-500'>A</p> */}
+                        <div className='flex items-center justify-center text-white bg-green-500 rounded-full w-7 h-7'>A</div>
                       </div>
                     </div>
 
