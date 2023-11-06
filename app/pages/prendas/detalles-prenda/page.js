@@ -40,43 +40,43 @@ const DetallesPrenda = () => {
 
                                     <div className='w-full px-4 py-6 text-gray-500 break-words bg-white'>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Stock</div>
+                                            <div className='w-[150px] font-bold'>Stock</div>
                                             <div className=''>9-1</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Dueño original</div>
+                                            <div className='w-[150px] font-bold'>Dueño original</div>
                                             <div className=''>Héctor Hernández Copca</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Descripción</div>
+                                            <div className='w-[150px] font-bold'>Descripción</div>
                                             <div className=''>Ford Focus 2009</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Detalles</div>
+                                            <div className='w-[150px] font-bold'>Detalles</div>
                                             <div className=''>No. Serie 344 4000km</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Observaciones</div>
+                                            <div className='w-[150px] font-bold'>Observaciones</div>
                                             <div className=''>Perfecto</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Avalúo</div>
+                                            <div className='w-[150px] font-bold'>Avalúo</div>
                                             <div className=''>$3.00</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Prestado</div>
+                                            <div className='w-[150px] font-bold'>Prestado</div>
                                             <div className=''>$45,000.00</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Adquisición</div>
+                                            <div className='w-[150px] font-bold'>Adquisición</div>
                                             <div className=''>Empeño</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Estado</div>
+                                            <div className='w-[150px] font-bold'>Estado</div>
                                             <div className=''>Empeño</div>
                                         </div>
                                         <div className='flex pb-3 text-sm'>
-                                            <div className='w-[150px]'>Encargado</div>
+                                            <div className='w-[150px] font-bold'>Encargado</div>
                                             <div className=''>Lizbeth Ramos</div>
                                         </div>
                                     </div>
