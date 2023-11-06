@@ -54,16 +54,22 @@ const NuevoPrestamo = () => {
                                 <div className='px-5 py-4 bg-white'>
 
                                     <div className='mb-5'>
-                                        <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Tipo</label>
+                                        <label for="categoria" class="block mb-2 text-sm font-semibold text-gray-700">Tipo</label>
                                         <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                                            <option>Selecciona el tipo de prenda</option>
-                                            <option selected value="vehiculo">Vehículo</option>
+                                            <option selected>Selecciona el tipo de prenda</option>
+                                            <option value="vehiculo">Vehículo</option>
+                                            <option value="maquinaria">Maquinaria pesada</option>
                                         </select>
                                     </div>
 
                                     <div className='mb-5'>
-                                        <label for="marca" class="block mb-2 text-sm font-semibold text-gray-700">Marca</label>
-                                        <input type="text" placeholder="Marca" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                    <label for="categoria" class="block mb-2 text-sm font-semibold text-gray-700">Marca</label>
+                                        <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                            <option selected value="marca">Selecciona</option>
+                                            <option>Marca</option>
+                                            <option>Marca</option>
+                                            <option>Marca</option>
+                                        </select>
                                     </div>
 
                                     <div className='mb-5'>
@@ -112,6 +118,21 @@ const NuevoPrestamo = () => {
                                     </div>
 
                                     <div className='mb-5'>
+                                        <label for="prestamo" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
+                                        <input type="text" placeholder="Préstamo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                    </div>
+
+                                    <div className='mb-5'>
+                                        <label for="ubicacion" class="block mb-2 text-sm font-semibold text-gray-700">Ubicación</label>
+                                        <select id="estado" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                            <option selected>Matilde</option>
+                                            <option value="estado">Querétaro</option>
+                                            <option value="estado">711</option>
+                                            <option value="estado">Otros</option>
+                                        </select>
+                                    </div>
+
+                                    <div className='mb-5'>
                                         <label for="ubicacion" class="block mb-2 text-sm font-semibold text-gray-700">Ubicación de resguardo</label>
                                         <input type="text" placeholder="Ubicación de resguardo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
@@ -126,8 +147,8 @@ const NuevoPrestamo = () => {
                                     </div>
 
                                     <div className='mb-5'>
-                                        <label for="dueño" class="block mb-2 text-sm font-semibold text-gray-700">Dueño original</label>
-                                        <input type="text" placeholder="Dueño original" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <label for="dueño" class="block mb-2 text-sm font-semibold text-gray-700">Responsable</label>
+                                        <input type="text" placeholder="Pedro Casa Aguilar" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" disabled/>
                                     </div>
 
                                 </div>
@@ -153,13 +174,21 @@ const NuevoPrestamo = () => {
                                             <p className='text-3xl font-bold text-gray-700'>$0.00</p>
                                         </li>
                                         <li className='pb-3'>
-                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés al finalizar el plazo</label>
+                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés al fin del mes</label>
                                             <p className='text-3xl font-bold text-gray-700'>$0.00</p>
                                         </li>
                                         <li className='pb-3'>
-                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Total a pagar al finalizar el plazo</label>
+                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés a medio plazo</label>
                                             <p className='text-3xl font-bold text-gray-700'>$0.00</p>
                                         </li>
+                                        <li className='pb-3'>
+                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés al finalizar el plazo</label>
+                                            <p className='text-3xl font-bold text-gray-700'>$0.00</p>
+                                        </li>
+                                        {/* <li className='pb-3'>
+                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Total a pagar al finalizar el plazo</label>
+                                            <p className='text-3xl font-bold text-gray-700'>$0.00</p>
+                                        </li> */}
                                     </ul>
                                 </div>
 
