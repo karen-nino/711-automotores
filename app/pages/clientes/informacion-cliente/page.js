@@ -120,11 +120,6 @@ const InformacionCliente = () => {
                                         <p className='text-3xl'>0</p>
                                     </div>
 
-                                    <div className='flex flex-col items-center justify-center w-32'>
-                                        <p className='text-sm text-center'>% DE LIQUIDACION</p>
-                                        <p className='text-3xl'>0</p>
-                                    </div>
-
                                 </div>
                             </div>
 
