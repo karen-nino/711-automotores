@@ -57,8 +57,10 @@ const NuevoPrestamo = () => {
                                         <label for="categoria" class="block mb-2 text-sm font-semibold text-gray-700">Tipo</label>
                                         <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                                             <option selected>Selecciona el tipo de prenda</option>
-                                            <option value="vehiculo">Vehículo</option>
+                                            <option value="vehiculo">Autos</option>
+                                            <option value="vehiculo">Motos</option>
                                             <option value="maquinaria">Maquinaria pesada</option>
+                                            <option value="maquinaria">Otros</option>
                                         </select>
                                     </div>
 
@@ -113,7 +115,17 @@ const NuevoPrestamo = () => {
                                     </div>
 
                                     <div className='mb-5'>
-                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo</label>
+                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo (Referencia 1)</label>
+                                        <input type="text" placeholder="Avalúo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                    </div>
+
+                                    <div className='mb-5'>
+                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo (Referencia 2)</label>
+                                        <input type="text" placeholder="Avalúo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                    </div>
+
+                                    <div className='mb-5'>
+                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo (Referencia 3)</label>
                                         <input type="text" placeholder="Avalúo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
