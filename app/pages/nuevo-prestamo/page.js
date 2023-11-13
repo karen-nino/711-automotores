@@ -145,6 +145,16 @@ const NuevoPrestamo = () => {
                                         <label for="prestamo" class="block mb-2 text-sm font-semibold text-gray-700">Préstamo</label>
                                         <input type="text" placeholder="Préstamo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
+                                    
+                                    <div className='mb-5'>
+                                        <label for="categoria" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
+                                        <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                            <option selected value="marca">Selecciona</option>
+                                            <option>1° Quincena</option>
+                                            <option>2° Quincena</option>
+                                            <option>3° Quincena</option>
+                                        </select>
+                                    </div>
 
                                     <div className='mb-5'>
                                         <label for="prestamo" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
