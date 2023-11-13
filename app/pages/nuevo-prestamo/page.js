@@ -75,7 +75,19 @@ const NuevoPrestamo = () => {
                                     </div>
 
                                     <div className='mb-5'>
-                                        <label for="linea" class="block mb-2 text-sm font-semibold text-gray-700">Marca (Otros)</label>
+                                        <label for="linea" class="block mb-2 text-sm font-semibold text-gray-700">Marca - Motos</label>
+                                        <div className='flex gap-4'>
+                                            <select id="Marca" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                                <option selected value="marca">Marca</option>
+                                            </select>
+                                            <select id="año" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                                <option selected value="marca">Año</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div className='mb-5'>
+                                        <label for="linea" class="block mb-2 text-sm font-semibold text-gray-700">Marca (Otras)</label>
                                         <input type="text" placeholder="Línea" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 

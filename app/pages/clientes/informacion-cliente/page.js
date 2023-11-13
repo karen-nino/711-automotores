@@ -124,6 +124,33 @@ const InformacionCliente = () => {
                             </div>
 
                             <div className='mb-10'>
+                                <label for="prestamos" class="block mb-2 text-sm font-semibold text-gray-700">Préstamos</label>
+                                <div className='flex gap-2 px-5 py-4 text-xs tracking-wide text-gray-600 bg-green-400 rounded place-content-around text-gray '>
+
+                                    <div className='flex flex-col items-center justify-center w-32'>
+                                        <p className='text-sm'>EMPEÑADO</p>
+                                        <p className='text-3xl'>0</p>
+                                    </div>
+
+                                    <div className='flex flex-col items-center justify-center w-32'>
+                                        <p className='text-sm'>DESEMPEÑADO</p>
+                                        <p className='text-3xl'>0</p>
+                                    </div>
+
+                                    <div className='flex flex-col items-center justify-center w-32'>
+                                        <p className='text-sm'>PERDIDO</p>
+                                        <p className='text-3xl'>0</p>
+                                    </div>
+
+                                    <div className='flex flex-col items-center justify-center w-32'>
+                                        <p className='text-sm'>VENCIDO</p>
+                                        <p className='text-3xl'>0</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className='mb-10'>
                                 <label for="fotografias" class="block mb-2 text-sm font-semibold text-gray-700">Fotografías</label>
                                 <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
                                     <div className='flex justify-center'>
