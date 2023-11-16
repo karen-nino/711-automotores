@@ -19,8 +19,8 @@ const ModalId = () => {
                                 </select>
                             </div>
                             <div className='mb-6'>
-                                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Número</label>
-                                <input type="text" placeholder="Número" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Número de ID</label>
+                                <input type="text" placeholder="Número de ID" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                             </div>
                             <a className='block text-xs tracking-wide text-gray-700 bg-white border border-b border-gray-300 rounded cursor-pointer w-[140px] item active:bg-gray-200'>
                                 <div className='flex justify-between'>
