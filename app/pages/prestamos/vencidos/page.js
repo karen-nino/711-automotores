@@ -38,21 +38,21 @@ const PrestamosVencidos = () => {
 
                             <ul className='flex items-center text-base bg-gray-100 select-none text-gray h-14'>
                                 <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <Link href="./">
-                                    Activos
-                                </Link>
+                                    <Link href="./">
+                                        Empeñados
+                                    </Link>
                                 </li>
                                 <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>
                                     <a>Vencidos</a>
                                 </li>
                                 <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                    <a>Expirados</a>
+                                    <a>Perdidos</a>
                                 </li>
                                 <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                    <a>Liquidados</a>
+                                    <a>Desempeñados</a>
                                 </li>
                                 <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                    <a>Cancelados</a>
+                                    <a>No Aprobados</a>
                                 </li>
                             </ul>
 
