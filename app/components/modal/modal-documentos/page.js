@@ -1,12 +1,12 @@
 import React from 'react'
 
-const ModalFotos = () => {
+const ModalDocumentos = () => {
     return (
         <div>
-            <input type="checkbox" id="tw-modal-fotos" class="peer fixed apparence-none opacity-0" />
-            <label for="tw-modal-fotos" class="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-slate-700/30 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100">
+            <input type="checkbox" id="tw-modal-documentos" class="peer fixed apparence-none opacity-0" />
+            <label for="tw-modal-documentos" class="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-slate-700/30 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100">
                 <label class="max-h-[calc(100vh - 5em) h-fit w-[500px] scale-90 overflow-y-auto overscroll-contain rounded-md bg-white p-6 text-black shadow-2xl transition]" for="">
-                    <h3 class="text-lg font-bold mb-5">Agregar fotos</h3>
+                    <h3 class="text-lg font-bold mb-5">Agregar documentos</h3>
                     <div className='mb-5'>
                         <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Tipo de foto</label>
                         <select id="identificacion" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
@@ -45,4 +45,4 @@ const ModalFotos = () => {
     )
 }
 
-export default ModalFotos
+export default ModalDocumentos

@@ -1,6 +1,9 @@
 import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import Link from 'next/link'
+import ModalDocumentos from '@/app/components/modal/modal-documentos/page'
+import ModalId from '@/app/components/modal/modal-identificacion/page'
+import ModalFotos from '@/app/components/modal/modal-fotos/page'
 
 const NuevoCliente = () => {
   return (
@@ -102,7 +105,8 @@ const NuevoCliente = () => {
                 <label for="identificacion-documento" class="block mb-2 text-sm font-semibold text-gray-700">Identificación oficial</label>
                 <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
                   <div className='flex justify-center'>
-                    <span className='text-center'>Agregar documentos</span>
+                    <label for="tw-modal-id" className='text-center'>Agregar Identificación</label>
+                    < ModalId />
                   </div>
                 </a>
               </div>
@@ -111,7 +115,8 @@ const NuevoCliente = () => {
                 <label for="documentos" class="block mb-2 text-sm font-semibold text-gray-700">Documentos</label>
                 <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
                   <div className='flex justify-center'>
-                    <span className='text-center'>Agregar documentos</span>
+                    <label for="tw-modal-documentos" className='text-center'>Agregar Documentos</label>
+                    < ModalDocumentos />
                   </div>
                 </a>
               </div>
@@ -120,7 +125,8 @@ const NuevoCliente = () => {
                 <label for="fotografias" class="block mb-2 text-sm font-semibold text-gray-700">Fotografías</label>
                 <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
                   <div className='flex justify-center'>
-                    <span className='text-center'>Agregar foto</span>
+                    <label for="tw-modal-fotos" className='text-center'>Agregar Fotos</label>
+                    < ModalFotos />
                   </div>
                 </a>
               </div>
