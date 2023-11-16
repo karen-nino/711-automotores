@@ -9,14 +9,20 @@ const ModalId = () => {
                     <label class="max-h-[calc(100vh - 5em) h-fit w-[500px] scale-90 overflow-y-auto overscroll-contain rounded-md bg-white p-6 text-black shadow-2xl transition]" for="">
                         <h3 class="text-lg font-bold mb-5">Agregar Identificación Oficial</h3>
                         <div className='mb-5'>
-                            <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Tipo de identificación</label>
-                            <select id="identificacion" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                                <option selected>Selecciona</option>
-                                <option value="ine">INE</option>
-                                <option value="pasaporte">Pasaporte</option>
-                                <option value="cartilla">Cartilla</option>
-                            </select>
-                            <a className='block mt-4 text-xs tracking-wide text-gray-700 bg-white border border-b border-gray-300 rounded cursor-pointer w-[140px] item active:bg-gray-200'>
+                            <div className='mb-4'>
+                                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Tipo de identificación</label>
+                                <select id="identificacion" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                    <option selected>Selecciona</option>
+                                    <option value="ine">INE</option>
+                                    <option value="pasaporte">Pasaporte</option>
+                                    <option value="cartilla">Cartilla</option>
+                                </select>
+                            </div>
+                            <div className='mb-6'>
+                                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Número</label>
+                                <input type="text" placeholder="Número" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                            </div>
+                            <a className='block text-xs tracking-wide text-gray-700 bg-white border border-b border-gray-300 rounded cursor-pointer w-[140px] item active:bg-gray-200'>
                                 <div className='flex justify-between'>
                                     <div className='flex justify-center py-3 pl-3'>
                                         <span className='text-center'>Agregar foto</span>
