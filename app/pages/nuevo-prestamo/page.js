@@ -161,7 +161,7 @@ const NuevoPrestamo = () => {
                                         <label for="prestamo" class="block mb-2 text-sm font-semibold text-gray-700">Préstamo</label>
                                         <input type="text" placeholder="Préstamo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
-                                    
+
                                     <div className='mb-5'>
                                         <label for="categoria" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
                                         <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
@@ -238,28 +238,48 @@ const NuevoPrestamo = () => {
                             <article className='pb-10'>
 
                                 <div className='w-full px-4 py-6 text-gray-500 bg-white'>
-                                    <ul className='text-sm'>
-                                        <li className='pb-3'>
-                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Préstamo total</label>
-                                            <p className='text-3xl font-bold text-gray-700'>$0.00</p>
-                                        </li>
-                                        <li className='pb-3'>
-                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés al fin del mes</label>
-                                            <p className='text-3xl font-bold text-gray-700'>$0.00</p>
-                                        </li>
-                                        <li className='pb-3'>
-                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés a medio plazo</label>
-                                            <p className='text-3xl font-bold text-gray-700'>$0.00</p>
-                                        </li>
-                                        <li className='pb-3'>
-                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés al finalizar el plazo</label>
-                                            <p className='text-3xl font-bold text-gray-700'>$0.00</p>
-                                        </li>
-                                        {/* <li className='pb-3'>
-                                            <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Total a pagar al finalizar el plazo</label>
-                                            <p className='text-3xl font-bold text-gray-700'>$0.00</p>
-                                        </li> */}
-                                    </ul>
+                                    <div className='flex justify-between'>
+                                        <div className='flex flex-col justify-between w-1/2'>
+                                            <div className='mt-4'>
+                                                <p class="block mb-2 text-sm font-medium text-gray-700">Préstamo total</p>
+                                                <p className='text-4xl font-bold text-gray-700'>$0.00</p>
+                                            </div>
+                                            <div>
+                                                <p class="block mb-2 text-sm  text-gray-700">Fecha de inicio: 01/01/2023</p>
+                                            </div>
+                                        </div>
+                                        <div className='w-1/2 bg-gray-100'>
+                                            <ul className='p-4 text-sm'>
+                                                <li className='flex justify-between pb-3'>
+                                                    <div>
+                                                        <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés a medio mes</label>
+                                                        <p className='text-3xl font-bold text-gray-700'>$0.00</p>
+                                                    </div>
+                                                    <div>
+                                                        <label for="categoria" class="block mb-2 text-sm text-gray-700">01/01/2023</label>
+                                                    </div>
+                                                </li>
+                                                <li className='flex justify-between pb-3'>
+                                                    <div>
+                                                        <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés al fin de mes</label>
+                                                        <p className='text-3xl font-bold text-gray-700'>$0.00</p>
+                                                    </div>
+                                                    <div>
+                                                        <label for="categoria" class="block mb-2 text-sm text-gray-700">01/01/2023</label>
+                                                    </div>
+                                                </li>
+                                                <li className='flex justify-between pb-3'>
+                                                    <div>
+                                                        <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Interés al finalizar el plazo</label>
+                                                        <p className='text-3xl font-bold text-gray-700'>$0.00</p>
+                                                    </div>
+                                                    <div>
+                                                        <label for="categoria" class="block mb-2 text-sm text-gray-700">01/01/2023</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </article>
