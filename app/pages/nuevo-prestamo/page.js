@@ -171,7 +171,7 @@ const NuevoPrestamo = () => {
                                         <label for="prestamo" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
                                         <div className='flex gap-4'>
                                             <select id="Marca" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                                                <option selected value="marca">Marca</option>
+                                                <option selected value="marca">Día</option>
                                             </select>
                                             <select id="año" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                                                 <option selected value="marca">Mes</option>
