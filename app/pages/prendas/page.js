@@ -51,7 +51,7 @@ const prendas = () => {
 
                         <section className='mt-10 ml-5'>
 
-                            <div className='flex'>
+                            <div className='flex gap-6'>
                                 <div className='flex border border-gray-300 bg-gray-50 w-96'>
                                     <input type="text" placeholder="Buscar" class="w-96  text-gray-900 text-sm rounded-md block p-2.5" />
                                     <a className='block px-3 py-3 text-xs tracking-wide text-gray-600 bg-white border-l border-gray-300 cursor-pointer text-gray active:bg-gray-300'>
@@ -83,7 +83,10 @@ const prendas = () => {
                                         </div>
                                     </a>
                                 </div>
+                            <button class=" bg-white hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 rounded-sm text-sm px-4 py-2.5 text-center inline-flex items-center" type="button" data-dropdown-toggle="dropdown">Serie<svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                            <button class=" bg-white hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 rounded-sm text-sm px-4 py-2.5 text-center inline-flex items-center" type="button" data-dropdown-toggle="dropdown">Con Tenencia<svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
                             </div>
+
                             
 
                             {/* <section id="apartados" onclick="ocultar('apartados')" className='mt-10'>
