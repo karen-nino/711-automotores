@@ -2,6 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import ModalFotos from '@/app/components/modal/modal-fotos/page'
 import Link from 'next/link'
+import ModalAvaluo from '@/app/components/modal/modal-avaluo/page'
 
 const NuevoPrestamo = () => {
     return (
@@ -143,18 +144,13 @@ const NuevoPrestamo = () => {
                                     </div>
 
                                     <div className='mb-5'>
-                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo (Referencia 1)</label>
-                                        <input type="text" placeholder="Avalúo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
-                                    </div>
-
-                                    <div className='mb-5'>
-                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo (Referencia 2)</label>
-                                        <input type="text" placeholder="Avalúo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
-                                    </div>
-
-                                    <div className='mb-5'>
-                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo (Referencia 3)</label>
-                                        <input type="text" placeholder="Avalúo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                                        <label for="avaluo" class="block mb-2 text-sm font-semibold text-gray-700">Avalúo</label>
+                                        <a className='block px-5 py-3 text-xs tracking-wide text-gray-600 bg-white border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
+                                            <div className='flex justify-center'>
+                                                <label for="tw-modal-avaluo" className='text-center'>Agregar Avalúo</label>
+                                                < ModalAvaluo />
+                                            </div>
+                                        </a>
                                     </div>
 
                                     <div className='mb-5'>
@@ -228,7 +224,7 @@ const NuevoPrestamo = () => {
 
                                     <div className='flex justify-between'>
                                         <p>Fotografías</p>
-                                        <label for="tw-modal" className='text-blue-400 cursor-pointer'>+ Agregar fotos</label>
+                                        <label for="tw-modal-fotos" className='text-blue-400 cursor-pointer'>+ Agregar fotos</label>
                                     </div>
                                     < ModalFotos />
 
