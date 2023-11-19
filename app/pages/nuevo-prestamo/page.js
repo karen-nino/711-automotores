@@ -3,6 +3,7 @@ import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import ModalFotos from '@/app/components/modal/modal-fotos/page'
 import Link from 'next/link'
 import ModalAvaluo from '@/app/components/modal/modal-avaluo/page'
+import ModalImpuestos from '@/app/components/modal/modal-impuestos/page'
 
 const NuevoPrestamo = () => {
     return (
@@ -35,12 +36,22 @@ const NuevoPrestamo = () => {
 
                         <section className='mt-10 ml-5 w-[698px] mb-64'>
 
-                            <div className='mb-5'>
+                            {/* <div className='mb-5'>
                                 <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Categoría</label>
                                 <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                                     <option selected>Selecciona una categoría</option>
                                     <option value="1">1</option>
                                 </select>
+                            </div> */}
+
+                            <div className='mb-5'>
+                                <label for="categoria" class="block mb-2 text-sm font-medium text-gray-700">Agregar impuestos</label>
+                                <a className='block px-5 py-3 text-xs tracking-wide text-white bg-blue-500 border border-b border-gray-300 rounded cursor-pointer text-gray active:bg-gray-300 w-44'>
+                                    <div className='flex justify-center'>
+                                        <label for="tw-modal-impuestos" className='text-center'>Agregar Impuestos</label>
+                                    </div>
+                                    < ModalImpuestos />
+                                </a>
                             </div>
 
                             <div className='mb-5'>
@@ -158,15 +169,6 @@ const NuevoPrestamo = () => {
                                         <input type="text" placeholder="Préstamo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                                     </div>
 
-                                    <div className='mb-5'>
-                                        <label for="categoria" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
-                                        <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                                            <option selected value="marca">Selecciona</option>
-                                            <option>1° Quincena</option>
-                                            <option>2° Quincena</option>
-                                            <option>3° Quincena</option>
-                                        </select>
-                                    </div>
 
                                     <div className='mb-5'>
                                         <label for="prestamo" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
