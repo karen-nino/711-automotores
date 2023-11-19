@@ -14,7 +14,13 @@ const ModalImpuestos = () => {
                         </div>
                         <div className='mb-5'>
                             <label for="linea" class="block mb-2 text-sm font-semibold text-gray-700">Periodo</label>
-                            <input type="text" placeholder="Periodo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                            <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                <option selected value="marca">Selecciona</option>
+                                <option>Diario</option>
+                                <option>Quincenal</option>
+                                <option>Semanal</option>
+                                <option>Mensual</option>
+                            </select>
                         </div>
                         <div className='mb-5'>
                             <label for="linea" class="block mb-2 text-sm font-semibold text-gray-700">Plazo</label>
