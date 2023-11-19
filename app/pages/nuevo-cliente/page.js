@@ -33,18 +33,29 @@ const NuevoCliente = () => {
 
             <section className='h-32 mt-10 ml-5 mb-44 w-96'>
 
+              <div className='flex flex-col justify-end w-1/2 mb-5'>
+                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Clasificación</label>
+                <select id="categoria" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                  <option selected>Selecciona</option>
+                  <option value="a">A</option>
+                  <option value="b">B</option>
+                  <option value="c">C</option>
+                  <option value="d">D</option>
+                </select>
+              </div>
+
               <div className='mb-5'>
                 <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Nombre</label>
                 <input type="text" placeholder="Nombre(s) del cliente" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
               </div>
 
               <div className='mb-5'>
-                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Apellidos</label>
+                <label for="apellidos" class="block mb-2 text-sm font-semibold text-gray-700">Apellidos</label>
                 <input type="text" placeholder="Apellidos del cliente" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
               </div>
 
               <div className='mb-5'>
-                <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Fecha de nacimiento</label>
+                <label for="fecha de nacimiento" class="block mb-2 text-sm font-semibold text-gray-700">Fecha de nacimiento</label>
                 <input type="text" placeholder="Fecha de nacimiento" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
               </div>
 
