@@ -100,14 +100,6 @@ const NuevoCliente = () => {
               </div>
 
               <div className='mb-5'>
-                <label for="identificacion" class="block mb-2 text-sm font-medium text-gray-700">ID</label>
-                <select id="identificacion" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                  <option selected>Selecciona</option>
-                  <option value="ID">Número de identificación oficial</option>
-                </select>
-              </div>
-
-              <div className='mb-5'>
                 <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Cotitular</label>
                 <input type="text" placeholder="Escribe para buscar un cliente registrado" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
               </div>
