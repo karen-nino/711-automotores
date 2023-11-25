@@ -142,22 +142,22 @@ const InformacionCliente = () => {
                                 <div className='flex gap-2 px-5 py-4 text-xs tracking-wide text-gray-600 bg-green-400 rounded place-content-around text-gray '>
 
                                     <div className='flex flex-col items-center justify-center w-32'>
-                                        <p className='text-sm'>EMPEÑADO</p>
+                                        <p className='text-sm'>EMPEÑADOS</p>
                                         <p className='text-3xl'>0</p>
                                     </div>
 
                                     <div className='flex flex-col items-center justify-center w-32'>
-                                        <p className='text-sm'>DESEMPEÑADO</p>
+                                        <p className='text-sm'>DESEMPEÑADOS</p>
                                         <p className='text-3xl'>0</p>
                                     </div>
 
                                     <div className='flex flex-col items-center justify-center w-32'>
-                                        <p className='text-sm'>PERDIDO</p>
+                                        <p className='text-sm'>PERDIDOS</p>
                                         <p className='text-3xl'>0</p>
                                     </div>
 
                                     <div className='flex flex-col items-center justify-center w-32'>
-                                        <p className='text-sm'>VENCIDO</p>
+                                        <p className='text-sm'>VENCIDOS</p>
                                         <p className='text-3xl'>0</p>
                                     </div>
 
