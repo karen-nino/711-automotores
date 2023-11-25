@@ -2,7 +2,7 @@ import React from 'react'
 import { Topbar, Sidebar } from '@/app/layouts/dashboard'
 import Link from 'next/link'
 
-const PrestamosVencidos = () => {
+const PrestamosPerdidos = () => {
     return (
         <div>
             <div className='flex flex-col'>
@@ -42,13 +42,13 @@ const PrestamosVencidos = () => {
                                         Empeñados
                                     </Link>
                                 </li>
-                                <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>
-                                    <Link href="#">
+                                <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
+                                    <Link href="./vencidos">
                                         Vencidos
                                     </Link>
                                 </li>
-                                <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                    <Link href="./perdidos">
+                                <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-blue-500 border-b-4 border-blue-500 cursor-pointer hover:bg-gray-200'>
+                                    <Link href="#">
                                         Perdidos
                                     </Link>
                                 </li>
@@ -103,13 +103,13 @@ const PrestamosVencidos = () => {
 
                                 <section id="activos" onclick="ocultar('activos')" className='mt-10'>
 
-                                    <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LOS PRÉSTAMOS VENCIDOS</label>
+                                    <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LOS PRÉSTAMOS PERDIDOS</label>
 
                                     <div className='grid gap-5  grid-cols-[600px,600px]'>
 
                                         <Link href="./detalles-del-prestamo" className='flex cursor-pointer'>
                                             <div>
-                                                <div className='flex items-center justify-center w-32 h-full text-white bg-orange-500'>
+                                                <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
                                                     2
                                                 </div>
                                             </div>
@@ -129,8 +129,8 @@ const PrestamosVencidos = () => {
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-orange-500'>
-                                                    <p className='text-xs tracking-wider text-white'>Vencido</p>
+                                                <div className='absolute bottom-0 right-0 flex items-center justify-center w-20 h-6 bg-gray-500'>
+                                                    <p className='text-xs tracking-wider text-white'>Perdido</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -186,4 +186,4 @@ const PrestamosVencidos = () => {
     )
 }
 
-export default PrestamosVencidos
+export default PrestamosPerdidos

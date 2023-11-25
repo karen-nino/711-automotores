@@ -47,13 +47,19 @@ const Prestamos = () => {
                                 </Link>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a>Perdidos</a>
+                                <Link href="./prestamos/perdidos">
+                                    Perdidos
+                                </Link>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a>Desempeñados</a>
+                                <Link href="./prestamos/desempenados">
+                                    Desempeñados
+                                </Link>
                             </li>
                             <li className='flex items-center justify-center h-full px-6 font-medium tracking-wide text-gray-600 cursor-pointer hover:bg-gray-200'>
-                                <a>No Aprobados</a>
+                                <Link href="./prestamos/no-aprobados">
+                                    No Aprobados
+                                </Link>
                             </li>
                         </ul>
 
@@ -96,11 +102,11 @@ const Prestamos = () => {
 
                             <section id="activos" onclick="ocultar('activos')" className='mt-10'>
 
-                                <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LOS PRÉSTAMOS ACTIVOS</label>
+                                <label for="prestamos" class="block text-sm font-semibold text-gray-700 mb-4">TODAS LOS PRÉSTAMOS EMPEÑADOS</label>
 
                                 <div className='grid gap-5  grid-cols-[600px,600px]'>
 
-                                    <article className='flex cursor-pointer'>
+                                    <Link href="./prestamos/detalles-del-prestamo" className='flex cursor-pointer'>
                                         <div>
                                             <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
                                                 2
@@ -126,7 +132,7 @@ const Prestamos = () => {
                                                 <p className='text-xs tracking-wider text-white'>Activo</p>
                                             </div>
                                         </div>
-                                    </article>
+                                    </Link>
 
                                 </div>
 
