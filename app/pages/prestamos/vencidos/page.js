@@ -107,7 +107,7 @@ const PrestamosVencidos = () => {
 
                                     <div className='grid gap-5  grid-cols-[600px,600px]'>
 
-                                        <Link href="./detalles-del-prestamo" className='flex cursor-pointer'>
+                                        <Link href="./vencidos/detalles-del-prestamo" className='flex cursor-pointer'>
                                             <div>
                                                 <div className='flex items-center justify-center w-32 h-full text-white bg-orange-500'>
                                                     2

@@ -107,7 +107,7 @@ const PrestamosPerdidos = () => {
 
                                     <div className='grid gap-5  grid-cols-[600px,600px]'>
 
-                                        <Link href="./detalles-del-prestamo" className='flex cursor-pointer'>
+                                        <Link href="./perdidos/detalles-del-prestamo" className='flex cursor-pointer'>
                                             <div>
                                                 <div className='flex items-center justify-center w-32 h-full bg-gray-300'>
                                                     2
