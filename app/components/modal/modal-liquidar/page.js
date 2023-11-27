@@ -8,11 +8,21 @@ const ModalLiquidar = () => {
                 <label class="max-h-[calc(100vh - 5em) h-fit w-[500px] scale-90 overflow-y-auto overscroll-contain rounded-md bg-white p-6 text-black shadow-2xl transition]" for="">
                     <h3 class="text-lg font-bold mb-5">Registrar pago</h3>
                     <div className='mb-5'>
-                        <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Cantidad a pagar</label>
-                        <input type="number" min="0" max="100" placeholder="0" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
-                        <div className='mt-4'>
+                        <div className='mb-4'>
+                            <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Deuda</label>
+                            <p className='text-4xl font-bold text-gray-700'>$0.00</p>
+                        </div>
+                        <div className='mb-4'>
+                            <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Interés Acumulativo</label>
+                            <p className='text-4xl font-bold text-gray-700'>$0.00</p>
+                        </div>
+                        <div className='mb-8'>
                             <p class="block mb-2 text-sm font-medium text-gray-700">Total</p>
                             <p className='text-4xl font-bold text-gray-700'>$0.00</p>
+                        </div>
+                        <div className='mb-8'>
+                            <label for="nombre" class="block mb-2 text-sm font-semibold text-gray-700">Cantidad a pagar</label>
+                            <input type="number" min="0" max="100" placeholder="0" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                         </div>
                     </div>
                     <div className='flex justify-end gap-2'>
